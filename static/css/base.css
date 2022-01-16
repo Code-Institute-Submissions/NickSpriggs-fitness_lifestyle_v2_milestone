@@ -2,6 +2,10 @@ html {
     height: 100%;
 }
 
+.header-container {
+    padding-top: 130px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -49,14 +53,14 @@ html {
 }
 
 .eColumn {
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     color: white; 
     font-size: 40px
 }
 
 .iconRow {
-    height: 250px;
+    height: 350px;
     padding-bottom: 30px;
 }
 
@@ -90,10 +94,6 @@ html {
         left: 0;
         z-index: 1030;
     }
-
-    .header-container {
-        padding-top: 164px;
-    }
 }
 
 /* fixes home screen rows */
@@ -102,13 +102,16 @@ html {
       height: 70px;
     }
     .eColumn {
-      padding-top: 20px;
       color: white; 
-      font-size: 20px
+      font-size: 30px
     }
 
     .introFont {
       font-size: 13px;
+    }
+
+    .welcomeRow {
+        padding-top: 50px;
     }
     
   }
