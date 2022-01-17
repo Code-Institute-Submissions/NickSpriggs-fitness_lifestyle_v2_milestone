@@ -24,5 +24,57 @@
         "image_url": "",
         "image": "mNutrition.png"
       }
+    },
+    {
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001340155",
+        "name": "Cardio Exercise (Easy)",
+        "description": "Jump",
+        "price": 0.00,
+        "category": 1,
+        "image_url": "",
+        "image": "video_placeholder.png"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001340155",
+        "name": "Endurance Exercise (Easy)",
+        "description": "Run",
+        "price": 0.00,
+        "category": 2,
+        "image_url": "",
+        "image": "video_placeholder.png"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001340155",
+        "name": "Strength Exercise (Easy)",
+        "description": "Run",
+        "price": 0.00,
+        "category": 3,
+        "image_url": "",
+        "image": "video_placeholder.png"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp5001340155",
+        "name": "Flexability Exercise (Easy)",
+        "description": "Run",
+        "price": 0.00,
+        "category": 4,
+        "image_url": "",
+        "image": "video_placeholder.png"
+      }
     }
   ]
