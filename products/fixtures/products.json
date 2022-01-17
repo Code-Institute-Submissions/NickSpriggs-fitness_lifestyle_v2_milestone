@@ -4,12 +4,12 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001340155",
-        "name": "Cardio Exercise #1",
+        "name": "Women's Nutrition Plan",
         "description": "Jump",
-        "price": 0.00,
-        "category": 1,
-        "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-        "image": "0900631B8140782DM.jpg"
+        "price": 5.00,
+        "category": 6,
+        "image_url": "",
+        "image": "wNutrition.png"
       }
     },
     {
@@ -17,12 +17,12 @@
       "model": "products.product",
       "fields": {
         "sku": "pp5001340155",
-        "name": "Cardio Exercise #2",
+        "name": "Men's Nutrition Plan",
         "description": "Run",
-        "price": 0.00,
-        "category": 1,
-        "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-        "image": "0900631B8140782DM.jpg"
+        "price": 5.00,
+        "category": 5,
+        "image_url": "",
+        "image": "mNutrition.png"
       }
     }
   ]

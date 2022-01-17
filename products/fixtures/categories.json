@@ -30,5 +30,21 @@
         "name": "flexability",
         "friendly_name": "Flexability"
       }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "men",
+        "friendly_name": "Men"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "women",
+        "friendly_name": "Women"
+      }
     }
   ]
