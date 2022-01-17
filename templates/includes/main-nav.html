@@ -5,10 +5,11 @@
                 Exercise Videos
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">Arms</a>
-                <a href="" class="dropdown-item ">Legs</a>
-                <a href="" class="dropdown-item ">Cardio</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Videos</a>
+                <a href="{% url 'products' %}?category=cardio" class="dropdown-item">Cardio</a>
+                <a href="{% url 'products' %}?category=endurance" class="dropdown-item ">Endurance</a>
+                <a href="{% url 'products' %}?category=strength" class="dropdown-item ">Strength</a>
+                <a href="{% url 'products' %}?category=flexability" class="dropdown-item ">Flexability</a>
+                <a href="{% url 'products' %}?category=flexability,strength,endurance,cardio" class="dropdown-item">All Videos</a>
             </div>
         </li>
 
@@ -17,8 +18,9 @@
                 Nutrition Plans
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Men</a>
-                <a href="" class="dropdown-item">Women</a>
+                <a href="{% url 'products' %}?category=men" class="dropdown-item">Men</a>
+                <a href="{% url 'products' %}?category=women" class="dropdown-item">Women</a>
+                <a href="{% url 'products' %}?category=men,women" class="dropdown-item">All Plans</a>
             </div>
         </li>
     </ul>
