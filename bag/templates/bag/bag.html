@@ -52,7 +52,7 @@
                                 </td>
                                 <td class="py-3 w-25">
                                     <a class="remove-item btn-danger btn-lg float-right" style="color: white; cursor: pointer;"
-                                    id="remove_{{ item.item_id }}">
+                                    id="removae_{{ item.item_id }}">
                                         Remove Item
                                     </a>
                                 </td>
@@ -71,7 +71,7 @@
                                     </span>
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
-                                <a href="" class="btn btn-black rounded-0 btn-lg">
+                                <a href="{% url 'checkout' %}" class="btn btn-black rounded-0 btn-lg">
                                     <span class="text-uppercase">Secure Checkout</span>
                                     <span class="icon">
                                         <i class="fas fa-lock"></i>
