@@ -29,8 +29,7 @@
                                 <th scope="col">Product Info</th>
                                 <th scope="col"></th>
                                 <th scope="col">Price</th>
-                                <th scope="col">Qty</th>
-                                <th scope="col">Subtotal</th>
+                                <th scope="col"></th>
                             </tr>
                         </thead>
 
@@ -42,28 +41,26 @@
                                 <td class="py-3">
                                     <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                                     <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
+                                    <p class="my-0 small text-muted">Description: {{ item.product.description }}</p>
                                 </td>
                                 <td class="py-3">
-                                    <p class="my-0">${{ item.product.price }}</p>
+                                {% if item.product.price == 0.00 %}
+                                <p class="lead mb-0 text-left font-weight-bold">FREE!</p>
+                                {% else %}
+                                <p class="lead mb-0 text-left font-weight-bold">${{ item.product.price }}</p>
+                                {% endif %}
                                 </td>
                                 <td class="py-3 w-25">
-                                    <p class="my-0">{{ item.quantity }}</p>
-                                </td>
-                                <td class="py-3">
-                                    <p class="my-0">${{ item.product.price }}</p>
+                                    <a class="remove-item btn-danger btn-lg float-right" style="color: white; cursor: pointer;"
+                                    id="remove_{{ item.item_id }}">
+                                        Remove Item
+                                    </a>
                                 </td>
                             </tr>
                         {% endfor %}
                         <tr>
                             <td colspan="5" class="pt-5 text-right">
-                                <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
-                                <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
-                                <h4 class="mt-4"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
-                                {% if free_delivery_delta > 0 %}
-                                    <p class="mb-1 text-danger">
-                                        You could get free delivery by spending just <strong>${{ free_delivery_delta }}</strong> more!
-                                    </p>
-                                {% endif %}
+                                <h4 class="mt-4"><strong>Total Cost: ${{ total|floatformat:2 }}</strong></h4>
                             </td>
                         </tr>
                         <tr>
@@ -96,4 +93,23 @@
             </div>
         </div>
     </div>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+
+<script type="text/javascript">
+    // Remove item and reload on click
+    $('.remove-item').click(function(e) {
+        var csrfToken = "{{ csrf_token }}";
+        var itemId = $(this).attr('id').split('remove_')[1];
+        var url = `/bag/remove/${itemId}`;
+        var data = {'csrfmiddlewaretoken': csrfToken};
+
+        $.post(url, data)
+         .done(function() {
+             location.reload();
+         });
+    })
+</script>
 {% endblock %}
