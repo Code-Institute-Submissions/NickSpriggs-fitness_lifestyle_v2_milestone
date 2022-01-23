@@ -6,6 +6,10 @@ html {
     padding-top: 130px;
 }
 
+.collapse-logo-display {
+    display: none;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -221,20 +225,40 @@ html {
 
 /* fixes home screen rows */
 @media screen and (max-width: 767px) {
-    .iconRow {
-      height: 70px;
-    }
     .eColumn {
-      color: white; 
-      font-size: 30px
+        padding-top: 12px;
+        color: white; 
+        font-size: 30px
+    }
+
+    .iconCol-b {
+        height: 110px;
+    }
+
+    .iconCol-y {
+        height: 110px;
+    }
+
+    .iconCol-r {
+        height: 110px;
     }
 
     .introFont {
-      font-size: 13px;
+        font-size: 13px;
     }
 
     .welcomeRow {
         padding-top: 50px;
     }
     
-  }
+}
+
+@media screen and (max-width: 991px) {
+    .header-container {
+        padding-top: 50px;
+    }
+
+    .collapse-logo-display {
+        display: block;
+    }
+}
