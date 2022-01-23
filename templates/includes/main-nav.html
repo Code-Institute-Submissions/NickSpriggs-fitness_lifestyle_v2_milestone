@@ -11,7 +11,7 @@
             <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div class="text-center">
                     <div><i class="fas fa-user fa-lg"></i></div>
-                    <p class="my-0">My Account</p>
+                    <p class="my-0">Members</p>
                 </div>
             </a>
             <div class="dropdown-menu border-0 text-center" aria-labelledby="user-options">
@@ -76,7 +76,7 @@
                 <a href="{% url 'products' %}?category=endurance" class="dropdown-item ">Endurance</a>
                 <a href="{% url 'products' %}?category=strength" class="dropdown-item ">Strength</a>
                 <a href="{% url 'products' %}?category=flexability" class="dropdown-item ">Flexability</a>
-                <a href="{% url 'products' %}?category=flexability,strength,endurance,cardio" class="dropdown-item">All Plans</a>
+                <a href="{% url 'products' %}?category=flexability,strength,endurance,cardio" class="dropdown-item">Show All</a>
             </div>
         </li>
 
@@ -87,7 +87,7 @@
             <div class="dropdown-menu border-0 text-center" aria-labelledby="homeware-link">
                 <a href="{% url 'products' %}?category=men" class="dropdown-item">Men</a>
                 <a href="{% url 'products' %}?category=women" class="dropdown-item">Women</a>
-                <a href="{% url 'products' %}?category=men,women" class="dropdown-item">All Plans</a>
+                <a href="{% url 'products' %}?category=men,women" class="dropdown-item">Show All</a>
             </div>
         </li>
     </ul>
