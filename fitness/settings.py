@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-p(mth6bf*p_eht@$qu0!5%5#nm6dfa1hs5a&4iw#jd))39*jru
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fitlyfe', 'localhost']
+ALLOWED_HOSTS = ['fitlyfe.herokuapp.com', 'localhost']
 
 
 # Application definition
