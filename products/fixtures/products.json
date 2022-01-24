@@ -5,11 +5,11 @@
       "fields": {
         "sku": "pp50017890865",
         "name": "Women's Weight Loss Plan",
-        "description": "Jump",
-        "plan": "Here is the plan",
+        "description": "Specific solutions on the best weight loss diet for busy moms, including the best foods to eat, what to avoid, meals to make, and the meal-time schedule that can keep things simple and sustainable for you and your family.",
+        "plan": "In terms of the foods to eat, a weight loss diet for women at home is made up of 4 things; Proteins, Carbs, Healthy Fats and Veggies. Preparing your meals using a simple principle we call 'The Perfect Plate', means you will simply use 1 of each of these groups in every meal.",
         "price": 5.00,
         "category": 5,
-        "url": "https://www.youtube.com/embed/tgbNymZ7vqY",
+        "url": "https://www.youtube.com/embed/I4DbxaN033k",
         "image": "wNutrition_loss.png"
       }
     },
@@ -19,11 +19,11 @@
       "fields": {
         "sku": "pp5054328096",
         "name": "Men's Weight Loss Plan",
-        "description": "Run",
-        "plan": "Here is the plan",
+        "description": "This is a simple and affordable diet for men to lose weight. You will learn how to properly portion your meals and incorporate this simple diet for men into your weekly routine.",
+        "plan": "In terms of the foods to eat, a weight loss diet for men at home is made up of 4 things; Proteins, Carbs, Healthy Fats and Veggies. Preparing your meals using a simple principle we call 'The Perfect Plate', means you will simply use 1 of each of these groups in every meal.",
         "price": 5.00,
         "category": 4,
-        "url": "",
+        "url": "https://www.youtube.com/embed/FhCAKq-k_e8",
         "image": "mNutrition_loss.png"
       }
     },
@@ -33,11 +33,11 @@
       "fields": {
         "sku": "pp6459340155",
         "name": "Women's Muscle Growth Plan",
-        "description": "Jump",
-        "plan": "Here is the plan",
+        "description": "Muscle growth tips for women, with a focus on nutrition and workouts",
+        "plan": "We want to divide that target up into a couple different meals. Meal timing for a muscle-building diet comes down to convenience. You could eat 6 smaller meals a day or use a standard breakfast, lunch, and dinner setup. All that matters here is that it works for your schedule.",
         "price": 5.00,
         "category": 5,
-        "url": "",
+        "url": "https://www.youtube.com/embed/gDIG6yvQLo4",
         "image": "wNutrition_growth.png"
       }
     },
@@ -47,11 +47,11 @@
       "fields": {
         "sku": "pp5322340155",
         "name": "Men's Muscle Growth Plan",
-        "description": "Run",
-        "plan": "Here is the plan",
+        "description": "Now, there are many things to consider when looking at a muscle-building meal diet. And there are just as many different approaches. But because you’re here looking for answers and clear action steps, we’re going to give you both the science of what does work as well as our own personal philosophy on what works best.",
+        "plan": "We want to divide that target up into a couple different meals. Meal timing for a muscle-building diet comes down to convenience. You could eat 6 smaller meals a day or use a standard breakfast, lunch, and dinner setup. All that matters here is that it works for your schedule.",
         "price": 5.00,
         "category": 4,
-        "url": "",
+        "url": "https://www.youtube.com/embed/AidhejSr9OU",
         "image": "mNutrition_growth.png"
       }
     },
@@ -62,7 +62,7 @@
         "sku": "pp2341340155",
         "name": "Strength Exercise (Easy)",
         "description": "Blast your core with this 10 minutes abs workout! There is no equipment required for this routine, but you may want to grab a mat for comfort.",
-        "plan": "Complete each exercise for 60 seconds (per side if applicable): High Plank Arm & Leg Ext / Arm Ext -> High Plank Walkouts / from Knees -> Hollow Body Arm Pullovers / Knees Bent -> Punching Sit Up / Crunch -> Side Plank Reach Through / from Knees -> Lying Leg Twist / Knees Bent -> Knee In-Twists / Feet Down",
+        "plan": "Complete each exercise for 60 seconds: (High Plank Arm & Leg Ext / Arm Ext) -> (High Plank Walkouts / from Knees) -> (Hollow Body Arm Pullovers / Knees Bent) -> (Punching Sit Up / Crunch) -> (Side Plank Reach Through / from Knees) -> (Lying Leg Twist / Knees Bent) -> (Knee In-Twists / Feet Down)",
         "price": 1.00,
         "category": 1,
         "url": "https://www.youtube.com/embed/eF9bqQ3hbqs",
@@ -76,7 +76,7 @@
         "sku": "pp5742218535",
         "name": "Strength Exercise (Medium)",
         "description": "Swing, pull, and push your way through this total body, 30 minute kettlebell workout! While this routine is designed to use one kettlebell, you may also perform it using one dumbbell by adjusting your grip. This HIIT routine is great for burning fat, improving strength, and enhancing lean muscle. Let’s work it together!",
-        "plan": "Warm Up: Upright External Rotation + High Knees -> Straight Leg Kick + Twist -> Bird Dogs | 30 Minute Kettlebell Workout -> Snatch from Floor / High Pull -> Kneeling Clean + Rotational Press -> Halo + Squat -> Single Rep Swings to Ballistic Push Up / Push Up -> Crush Grip Curls -> Reverse Lunge + Svend Press / Split Squat -> Iso Hip Up Pullover -> Kettlebell Skips / Steps -> Deep Split Stance Row / Split -> Goblet Squat Curl + Overhead Triceps Extension -> 1-3 Tempo Reach Crunches -> Stiff Leg Deadlift + Shrug -> Close Grip Kettlebell Push Up / from Knee | Cool Down -> One Leg Hip Hinge -> Lying Side Quad Stretch -> Floor Angels -> Cobra to Child’s Pose",
+        "plan": "30 Minute Kettlebell Workout: (Snatch from Floor / High Pull) -> (Kneeling Clean + Rotational Press) -> (Halo + Squat) -> (Single Rep Swings to Ballistic Push Up / Push Up) -> (Crush Grip Curls) -> (Reverse Lunge + Svend Press) / (Split Squat) -> (Iso Hip Up Pullover) -> (Kettlebell Skips / Steps) -> (Deep Split Stance Row / Split) -> (Goblet Squat Curl) + (Overhead Triceps Extension) -> (1-3 Tempo Reach Crunches) -> (Stiff Leg Deadlift + Shrug) -> (Close Grip Kettlebell Push Up / from Knee)",
         "price": 1.00,
         "category": 1,
         "url": "https://www.youtube.com/embed/f_lmi20A4zg",
@@ -90,7 +90,7 @@
         "sku": "pp4974220155",
         "name": "Strength Exercise (Hard)",
         "description": "Kettlebell workouts are an amazing way to burn fat and build strength throughout your body. In addition to improving strength and burning fat, you’ll also enhance your stability and conditioning. Don’t have a kettlebell? No problem! All of these moves can be performed with a traditional dumbbell. You can do it!",
-        "plan": "Warm up -> Jumping Jacks / Run in Place -> Toe Touches / Knee Touches -> High Punch Out | Kettlebell Workout for Fat Loss & Strength Complete 2 rounds of each exercise for 50 seconds (per side if applicable): Squat + One Arm Row -> Single Rep Swings + Bear Plank + Blast Back Squat / Step Back -> One Arm Curl + Press -> Swing to Hike Squat to Deadlift Jump / Deadlift -> One Arm Clean / One arm high pull -> Gorrila Row -> Ovrhd Reverse Lunge / Reverse Lunge -> Uneven Pushup / Knees -> Sumo DL + Bear Plank+ Side Kick through / Step Back -> One Arm Push Press + Side Lunge / Side Squat -> Kneeling Snatch + Half Turkish Get Up / Kneeling Press -> Front Squat + Rotational Press | Cool Down: Wall Angel -> Reach Stretch -> Chest Opener -> Butterfly",
+        "plan": "Kettlebell Workout for Fat Loss & Strength Complete 2 rounds of each exercise for 50 seconds: (Squat + One Arm Row) -> (Single Rep Swings + Bear Plank + Blast Back Squat / Step Back) -> (One Arm Curl + Press) -> (Swing to Hike Squat to Deadlift Jump / Deadlift) -> (One Arm Clean / One arm high pull) -> (Gorrila Row -> Ovrhd Reverse Lunge / Reverse Lunge) -> (Uneven Pushup / Knees) -> (Sumo DL + Bear Plank+ Side Kick through / Step Back) -> (One Arm Push Press + Side Lunge / Side Squat) -> (Kneeling Snatch + Half Turkish Get Up / Kneeling Press) -> (Front Squat + Rotational Press)",
         "price": 1.00,
         "category": 1,
         "url": "https://www.youtube.com/embed/pIXQmb5L9wU",
@@ -103,10 +103,11 @@
       "fields": {
         "sku": "pp500742115",
         "name": "Endurance Exercise (Easy)",
-        "description": "Run",
+        "description": "A simple sports endurance workout that focuses on stamina, speed, and agility.",
+        "plan": "Two Rounds of the Following: (Lateral Hops) -> (Squat Jumps) -> (Ventral Hops) -> (Burpees) -> (Lateral Jumps) -> (Jumping Lunges) -> (Agility Dots) -> (Mt Climbers)",
         "price": 1.00,
         "category": 2,
-        "url": "",
+        "url": "https://www.youtube.com/embed/=5uVaKjtJHN8",
         "image": "endurance_easy.png"
       }
     },
@@ -116,10 +117,11 @@
       "fields": {
         "sku": "pp5368074535",
         "name": "Endurance Exercise (Medium)",
-        "description": "Run",
+        "description": "A 33 minute workout of High Intensity Interval Training for endurance & total body toning.",
+        "plan": "33 Minutes of the Following: (4 Minutes of Cardio Warm Up) -> (High Intensity Interval Round #1) -> (High Intensity Interval Round #2) -> (High Intensity Interval Round #3)",
         "price": 1.00,
         "category": 2,
-        "url": "",
+        "url": "https://www.youtube.com/embed/H1GDPNYTpqA",
         "image": "endurance_medium.png"
       }
     },
@@ -129,10 +131,11 @@
       "fields": {
         "sku": "pp573169074",
         "name": "Endurance Exercise (Hard)",
-        "description": "Run",
+        "description": "A bodyweight only High Intensity Interval Workout to burn fat and build endurance.",
+        "plan": "Workout Structure: (3 groups of workouts / 3 sets each) -> (3 groups of workouts / 3 sets each) ",
         "price": 1.00,
         "category": 2,
-        "url": "",
+        "url": "https://www.youtube.com/embed/9V9I1KbJvs0",
         "image": "endurance_hard.png"
       }
     },
@@ -142,10 +145,11 @@
       "fields": {
         "sku": "pp32147985995",
         "name": "Flexability Exercise (Easy)",
-        "description": "Run",
+        "description": "A 15 Minute beginner stretch flexibility routine!",
+        "plan": "Workout Structure: (Neck Side Flexion) -> (Shoulder Extension Reaches) -> Child Pose -> Child Pose with Lat Focus -> Child Pose with Pec Twist -> (McKenzie push Up) -> (Leg tuck up) -> (Leg side drops) -> (Cross body glute pull) -> (Hip swivels) -> (Squat to pike) -> (Low lunge / left leg) -> (Lunge with twist (left leg) -> (Frog pose rocks) -> (Low lunge / Right Leg) -> (Lunge with twist / Right Leg) -> (Frog pose squat) -> (Squat and closing notes)",
         "price": 1.00,
         "category": 3,
-        "url": "",
+        "url": "https://www.youtube.com/embed/L_xrDAtykMI",
         "image": "flexability_easy.png"
       }
     },
@@ -155,10 +159,11 @@
       "fields": {
         "sku": "pp31347805327",
         "name": "Flexability Exercise (Medium)",
-        "description": "Run",
+        "description": "A 20 minute full body flexibility routine! ",
+        "plan": "Workout Structure: (Neck Rolls: Extension, Flexion, Lateral Flexion) -> (Spinal Rolls: Extension, Flexion, Lateral Flexion) -> (Downward Dog) -> (Upward Dog) -> (Prone Pec Stretch With Rotation: Left & Right) -> (Child Pose) -> (Thread The Needle: Left & Right) -> (Butchers Block) -> (McKenzie Push Up) -> (Contralateral Extension: Left Arm & Right Leg) -> (Lunge with Twist: Right Leg) -> (Elbow Lunge: Right Leg) -> (90:90 Stretch: Right Leg) -> (Pike Pulls) -> (Reverse Plank) -> (Squat) -> (Contralateral Extension: Right Arm & leftLeg) -> Lunge with Twist (Left Leg) -> (Elbow Lunge: Left Leg) -> (90:90 Stretch: Left Leg) -> (Pancake Pulls) -> (Reverse Plank) -> (Squat)",
         "price": 1.00,
         "category": 3,
-        "url": "",
+        "url": "https://www.youtube.com/embed/lPKRiU9u_Hc",
         "image": "flexability_medium.png"
       }
     },
@@ -168,10 +173,11 @@
       "fields": {
         "sku": "pp4249064389",
         "name": "Flexability Exercise (Hard)",
-        "description": "Run",
+        "description": "A 60 minute full body flexibility routine! ",
+        "plan": "Workout Structure: (Neck Circle x 5) -> (Shoulder Rotations x 10) -> (Thoracic Circles x 5) -> (Thread The Needle x 3) -> (Extended Cat Cow x 5) -> (Prone Shoulder Flexion Lift x 3) -> (Prone Butchers Block x 3) -> (Shoulder Extension Lift x 3) -> (Table Top Lift x 5) -> (Squat Rotation x 5) -> (Hip Swivels x 10) -> (90:90 Internal Rotation Lift x 3) -> (Pigeon Twist x 3) -> (Downward Dog Walk x 20) -> (Pike Compression x 3) -> (Squat To Pike x 5) -> (Pancake Compression x 3) -> (Pancake Slide Out x 3) -> (Side Hip Flexor Stretch x 2) -> (Hip Flexor Leg Curl x 3) -> (Wall Hip Flexor Stretch x 3) -> (Frog Rocks x 10) -> (Passive Thoracic Extension)",
         "price": 1.00,
         "category": 3,
-        "url": "",
+        "url": "https://www.youtube.com/embed/aUm3qE2dvB8",
         "image": "flexability_hard.png"
       }
     }
