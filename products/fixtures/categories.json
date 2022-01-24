@@ -3,8 +3,8 @@
       "pk": 1,
       "model": "products.category",
       "fields": {
-        "name": "cardio",
-        "friendly_name": "Cardio"
+        "name": "strength",
+        "friendly_name": "Strength"
       }
     },
     {
@@ -12,19 +12,11 @@
       "model": "products.category",
       "fields": {
         "name": "endurance",
-        "friendly_name": "Endruance"
+        "friendly_name": "Endurance"
       }
     },
     {
       "pk": 3,
-      "model": "products.category",
-      "fields": {
-        "name": "strength",
-        "friendly_name": "Strength"
-      }
-    },
-    {
-      "pk": 4,
       "model": "products.category",
       "fields": {
         "name": "flexability",
@@ -32,7 +24,7 @@
       }
     },
     {
-      "pk": 5,
+      "pk": 4,
       "model": "products.category",
       "fields": {
         "name": "men",
@@ -40,7 +32,7 @@
       }
     },
     {
-      "pk": 6,
+      "pk": 5,
       "model": "products.category",
       "fields": {
         "name": "women",

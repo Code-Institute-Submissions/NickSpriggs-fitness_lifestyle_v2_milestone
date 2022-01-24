@@ -64,9 +64,7 @@
                                             <ul class="list-unstyled">
                                                 {% for item in order.lineitems.all %}
                                                     <li class="small">
-                                                        {% if item.product.has_sizes %}
-                                                            Size {{ item.product.size|upper }}
-                                                        {% endif %}{{ item.product.name }} x{{ item.quantity }}
+                                                        {{ item.product.name }} x{{ item.quantity }}
                                                     </li>
                                                 {% endfor %}
                                             </ul>
@@ -81,18 +79,30 @@
             </div>            
         </div>
 
-        <button type="button" class="collapsible" style="background-color: rgb(167, 1, 1);">
-            Exercise Plans
-            <i class="fas fa-chevron-circle-down"></i>
-        </button>
-        <div class="content"></div>
+        <div class="row">
+            <div class="col text-center">
+                <hr>
+                <h2 class="logo-font mb-4">My Plans</h2>
+                <hr>
+            </div>
+        </div>
 
-        <button type="button green" class="collapsible" style="background-color: rgb(5, 5, 187);">
-            Nutrition Plans
-            <i class="fas fa-chevron-circle-down"></i>
-        </button>
-        <div class="content"></div>
+        {% for order in ordersForDisplay %}
+            {% for item in order.lineitems.all %}
+                <button type="button" style="background-color: rgb(167, 1, 1);" class="collapsible">
+                    {{ item.product.name }}
+                     :while the category is: 
+                    {{ item.product.category }}
+                    <i class="fas fa-chevron-circle-down"></i>
+                </button>
 
+                <div class="content">
+                    <div class="p-3">
+                        {{ item.product.description }}
+                    </div>
+                </div>
+            {% endfor %}
+        {% endfor %}    
   
 {% endblock %}
 
