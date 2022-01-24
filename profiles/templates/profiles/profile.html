@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col text-center">
                 <hr>
-                <h2 class="logo-font mb-4">My Profile</h2>
+                <h2 class="logo-font mb-2">My Profile</h2>
                 <hr>
             </div>
         </div>
@@ -82,17 +82,26 @@
         <div class="row">
             <div class="col text-center">
                 <hr>
-                <h2 class="logo-font mb-4">My Plans</h2>
+                <h2 class="logo-font mb-2">My Plans</h2>
                 <hr>
             </div>
         </div>
 
         {% for order in ordersForDisplay %}
             {% for item in order.lineitems.all %}
-                <button type="button" style="background-color: rgb(167, 1, 1);" class="collapsible">
+
+                {% if item.product.category.name == "men" %}
+                <button type="button" style="background-color: rgb(5, 46, 122);" class="collapsible">
+                {% elif item.product.category.name == "women" %}
+                <button type="button" style="background-color: rgb(197, 49, 198);" class="collapsible">
+                {% elif item.product.category.name == "strength" %}
+                <button type="button" style="background-color:  rgb(186, 30, 0);" class="collapsible">
+                {% elif item.product.category.name == "endurance" %}
+                <button type="button" style="background-color: rgb(102, 156, 53);" class="collapsible">
+                {% elif item.product.category.name == "flexability" %}
+                <button type="button" style="background-color: rgb(254, 198, 1);" class="collapsible">
+                {% endif %}
                     {{ item.product.name }}
-                     :while the category is: 
-                    {{ item.product.category }}
                     <i class="fas fa-chevron-circle-down"></i>
                 </button>
 
