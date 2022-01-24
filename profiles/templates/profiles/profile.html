@@ -117,6 +117,11 @@
                 </div>
             {% endfor %}
         {% endfor %}    
+        
+        {% if ordersForDisplay %}
+        {% else %}
+            <h4 class="text-center" style="color: rgba(185, 5, 5, 0.548);">No Plans Purhased</h4>
+        {% endif %}
   
 {% endblock %}
 
