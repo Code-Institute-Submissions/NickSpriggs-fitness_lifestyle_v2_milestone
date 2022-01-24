@@ -3,12 +3,13 @@
       "pk": 1,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp50017890865",
         "name": "Women's Weight Loss Plan",
         "description": "Jump",
+        "plan": "Here is the plan",
         "price": 5.00,
         "category": 5,
-        "image_url": "",
+        "url": "https://www.youtube.com/embed/tgbNymZ7vqY",
         "image": "wNutrition_loss.png"
       }
     },
@@ -16,12 +17,12 @@
       "pk": 2,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp5054328096",
         "name": "Men's Weight Loss Plan",
         "description": "Run",
         "price": 5.00,
         "category": 4,
-        "image_url": "",
+        "url": "",
         "image": "mNutrition_loss.png"
       }
     },
@@ -29,12 +30,12 @@
       "pk": 3,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp6459340155",
         "name": "Women's Muscle Growth Plan",
         "description": "Jump",
         "price": 5.00,
         "category": 5,
-        "image_url": "",
+        "url": "",
         "image": "wNutrition_growth.png"
       }
     },
@@ -42,12 +43,12 @@
       "pk": 4,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp5322340155",
         "name": "Men's Muscle Growth Plan",
         "description": "Run",
         "price": 5.00,
         "category": 4,
-        "image_url": "",
+        "url": "",
         "image": "mNutrition_growth.png"
       }
     },
@@ -55,12 +56,12 @@
       "pk": 5,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp2341340155",
         "name": "Strength Exercise (Easy)",
         "description": "Run",
         "price": 1.00,
         "category": 1,
-        "image_url": "",
+        "url": "",
         "image": "strength_easy.png"
       }
     },
@@ -68,12 +69,12 @@
       "pk": 6,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp5742218535",
         "name": "Strength Exercise (Medium)",
         "description": "Run",
         "price": 1.00,
         "category": 1,
-        "image_url": "",
+        "url": "",
         "image": "strength_medium.png"
       }
     },
@@ -81,12 +82,12 @@
       "pk": 7,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp4974220155",
         "name": "Strength Exercise (Hard)",
         "description": "Run",
         "price": 1.00,
         "category": 1,
-        "image_url": "",
+        "url": "",
         "image": "strength_hard.png"
       }
     },
@@ -94,12 +95,12 @@
       "pk": 8,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp500742115",
         "name": "Endurance Exercise (Easy)",
         "description": "Run",
         "price": 1.00,
         "category": 2,
-        "image_url": "",
+        "url": "",
         "image": "endurance_easy.png"
       }
     },
@@ -107,12 +108,12 @@
       "pk": 9,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp5368074535",
         "name": "Endurance Exercise (Medium)",
         "description": "Run",
         "price": 1.00,
         "category": 2,
-        "image_url": "",
+        "url": "",
         "image": "endurance_medium.png"
       }
     },
@@ -120,12 +121,12 @@
       "pk": 10,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp573169074",
         "name": "Endurance Exercise (Hard)",
         "description": "Run",
         "price": 1.00,
         "category": 2,
-        "image_url": "",
+        "url": "",
         "image": "endurance_hard.png"
       }
     },
@@ -133,12 +134,12 @@
       "pk": 11,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp32147985995",
         "name": "Flexability Exercise (Easy)",
         "description": "Run",
         "price": 1.00,
         "category": 3,
-        "image_url": "",
+        "url": "",
         "image": "flexability_easy.png"
       }
     },
@@ -146,12 +147,12 @@
       "pk": 12,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp31347805327",
         "name": "Flexability Exercise (Medium)",
         "description": "Run",
         "price": 1.00,
         "category": 3,
-        "image_url": "",
+        "url": "",
         "image": "flexability_medium.png"
       }
     },
@@ -159,12 +160,12 @@
       "pk": 13,
       "model": "products.product",
       "fields": {
-        "sku": "pp5001340155",
+        "sku": "pp4249064389",
         "name": "Flexability Exercise (Hard)",
         "description": "Run",
         "price": 1.00,
         "category": 3,
-        "image_url": "",
+        "url": "",
         "image": "flexability_hard.png"
       }
     }
