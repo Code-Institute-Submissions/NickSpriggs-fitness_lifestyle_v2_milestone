@@ -20,6 +20,7 @@
         "sku": "pp5054328096",
         "name": "Men's Weight Loss Plan",
         "description": "Run",
+        "plan": "Here is the plan",
         "price": 5.00,
         "category": 4,
         "url": "",
@@ -33,6 +34,7 @@
         "sku": "pp6459340155",
         "name": "Women's Muscle Growth Plan",
         "description": "Jump",
+        "plan": "Here is the plan",
         "price": 5.00,
         "category": 5,
         "url": "",
@@ -46,6 +48,7 @@
         "sku": "pp5322340155",
         "name": "Men's Muscle Growth Plan",
         "description": "Run",
+        "plan": "Here is the plan",
         "price": 5.00,
         "category": 4,
         "url": "",
@@ -58,10 +61,11 @@
       "fields": {
         "sku": "pp2341340155",
         "name": "Strength Exercise (Easy)",
-        "description": "Run",
+        "description": "Blast your core with this 10 minutes abs workout! There is no equipment required for this routine, but you may want to grab a mat for comfort.",
+        "plan": "Complete each exercise for 60 seconds (per side if applicable): High Plank Arm & Leg Ext / Arm Ext -> High Plank Walkouts / from Knees -> Hollow Body Arm Pullovers / Knees Bent -> Punching Sit Up / Crunch -> Side Plank Reach Through / from Knees -> Lying Leg Twist / Knees Bent -> Knee In-Twists / Feet Down",
         "price": 1.00,
         "category": 1,
-        "url": "",
+        "url": "https://www.youtube.com/embed/eF9bqQ3hbqs",
         "image": "strength_easy.png"
       }
     },
@@ -71,10 +75,11 @@
       "fields": {
         "sku": "pp5742218535",
         "name": "Strength Exercise (Medium)",
-        "description": "Run",
+        "description": "Swing, pull, and push your way through this total body, 30 minute kettlebell workout! While this routine is designed to use one kettlebell, you may also perform it using one dumbbell by adjusting your grip. This HIIT routine is great for burning fat, improving strength, and enhancing lean muscle. Let’s work it together!",
+        "plan": "Warm Up: Upright External Rotation + High Knees -> Straight Leg Kick + Twist -> Bird Dogs | 30 Minute Kettlebell Workout -> Snatch from Floor / High Pull -> Kneeling Clean + Rotational Press -> Halo + Squat -> Single Rep Swings to Ballistic Push Up / Push Up -> Crush Grip Curls -> Reverse Lunge + Svend Press / Split Squat -> Iso Hip Up Pullover -> Kettlebell Skips / Steps -> Deep Split Stance Row / Split -> Goblet Squat Curl + Overhead Triceps Extension -> 1-3 Tempo Reach Crunches -> Stiff Leg Deadlift + Shrug -> Close Grip Kettlebell Push Up / from Knee | Cool Down -> One Leg Hip Hinge -> Lying Side Quad Stretch -> Floor Angels -> Cobra to Child’s Pose",
         "price": 1.00,
         "category": 1,
-        "url": "",
+        "url": "https://www.youtube.com/embed/f_lmi20A4zg",
         "image": "strength_medium.png"
       }
     },
@@ -84,10 +89,11 @@
       "fields": {
         "sku": "pp4974220155",
         "name": "Strength Exercise (Hard)",
-        "description": "Run",
+        "description": "Kettlebell workouts are an amazing way to burn fat and build strength throughout your body. In addition to improving strength and burning fat, you’ll also enhance your stability and conditioning. Don’t have a kettlebell? No problem! All of these moves can be performed with a traditional dumbbell. You can do it!",
+        "plan": "Warm up -> Jumping Jacks / Run in Place -> Toe Touches / Knee Touches -> High Punch Out | Kettlebell Workout for Fat Loss & Strength Complete 2 rounds of each exercise for 50 seconds (per side if applicable): Squat + One Arm Row -> Single Rep Swings + Bear Plank + Blast Back Squat / Step Back -> One Arm Curl + Press -> Swing to Hike Squat to Deadlift Jump / Deadlift -> One Arm Clean / One arm high pull -> Gorrila Row -> Ovrhd Reverse Lunge / Reverse Lunge -> Uneven Pushup / Knees -> Sumo DL + Bear Plank+ Side Kick through / Step Back -> One Arm Push Press + Side Lunge / Side Squat -> Kneeling Snatch + Half Turkish Get Up / Kneeling Press -> Front Squat + Rotational Press | Cool Down: Wall Angel -> Reach Stretch -> Chest Opener -> Butterfly",
         "price": 1.00,
         "category": 1,
-        "url": "",
+        "url": "https://www.youtube.com/embed/pIXQmb5L9wU",
         "image": "strength_hard.png"
       }
     },
