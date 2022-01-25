@@ -1,108 +1,225 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Full-Stack Framework Project
 
-Welcome NickSpriggs,
+The following project was my attempt to create a book recommendation website for users who are trying watch
+less television. To help with this the recommendations are based on the viewing habits of the visitors. Each film
+is suggested and added to the site by a user, as are the respective recommendations for each film. This site currently
+makes use of HTML, CSS, Python, Jinja, and Javascript. It also relies on Heroku for deployment and MongoDB for data
+storage. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View live project](https://fitlyfe.herokuapp.com/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# UX
 
-## Gitpod Reminders
+My goal was to create a website that would allow users interested in reading more to find books based
+on their existing movie viewing habits. Specifically my goals were to:
+- Allow unregistered users to search for films and view their respective book recommendations.
+- Allow registered users to add films and recommendations to the site database. 
+    - Only allow the admin and the user who created the film/recommendation to update
+    or delete them from the database. [The admin login is username: admin / password: bookmark]
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Stories
 
-`python3 -m http.server`
+-   #### First Time User Goals
 
-A blue button should appear to click: _Make Public_,
+    1. As a First Time User, I want to easily locate different films, either by title or genre. 
+    2. As a First Time User, I want to easily find the recommendations for the films. 
+    3. As a First Time User, I would like the option to register for an account.   
 
-Another blue button should appear to click: _Open Browser_.
+-   #### Returning User Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    1. As a Returning User, I want to be able to login to my account.
+    2. As a Returning User, I would like to add films to the site so that others might offer 
+    reading suggestions based on my preferences. 
+    3. As a Returning User, I would like to be able to upload my own book suggestions for certain films.
+        - I would also like to be able to alter or delete any recommendations I may have made.   
 
-A blue button should appear to click: _Make Public_,
+# Wireframes:
+<img src="static/img/wireframes/Landing Page.png">
+<img src="static/img/wireframes/Poster Click [Logged In].png">
+<img src="static/img/wireframes/Login:Register Page.png">
+<img src="static/img/wireframes/Landing Page [Logged In].png">
+<img src="static/img/wireframes/Add Poster:Film [Logged In].png">
+<img src="static/img/wireframes/Poster Add Rec [Logged In].png">
 
-Another blue button should appear to click: _Open Browser_.
+# Database Schema:
+MongoDB is used to store the data pertaining to this site. The relationship between the different databases can be seen
+below. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<img src="static/img/db_schema.png">
 
-To log into the Heroku toolbelt CLI:
+Each user has a name and password. When a user creates a film, their name is stored in the film. Likewise when a user 
+creates a recommendation for a film their name, as well as the film's title, is stored in the recommendation. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# Features
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Mobile, desktop, and tablet scalable.
 
-------
+- User can add/edit/delete films and books on the site database. 
 
-## Release History
+# Technology Used
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Languages
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- HTML
+- CSS
+- Javascript
+- Python
+- Jinja
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Frameworks, Libraries, Websites & Programs Used
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- [W3schools](https://www.w3schools.com/): This site provided many useful templates in their lessons.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- [Materialize](https://www.materializecss.com/): Very helpful framework for figuring out initial design.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    - Jquery: Provided helpful code for navbar.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- [FontAwesome](https://fontawesome.com/): Provided icons for certain features.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- [Photoshop](https://photoshop.com/en): This was used to design the site's wireframes and database schema. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- [FontMeme](https://www.fontmeme.com/): This was used to design the logo. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- [MongoDB](https://www.mongodb.com/): MongoDB is used to store the database. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- [Heroku](https://www.heroku.com/): Heroku was used to deploy the website.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- [GitHub](https://github.com/): GitHub was used to code the program.
+    - Dependencies
+        - click==8.0.1
+        - dnspython==2.1.0
+        - Flask==2.0.1 
+        - Flask-PyMongo==2.3.0
+        - itsdangerous==2.0.1 
+        - pymongo==3.12.0
+        - Werkzeug==2.0.1
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Testing
+W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the code. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- WSC Markup - [Link to site](https://validator.w3.org/)
+    - get_films.html - <a href="static/img/validation/get_films.html - Nu Html Checker.pdf"> Results PDF </a>
+    - login.html - <a href="static/img/validation/login.html - Nu Html Checker.pdf"> Results PDF </a>
+    - register.html - <a href="static/img/validation/register.html - Nu Html Checker.pdf"> Results PDF </a>
+- W3C CSS - [Link to site](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - style.css - <a href="static/img/validation/W3C CSS Validator (CSS level 3 + SVG).pdf">Results PDF </a>
+- Python - [Link to site](http://pep8online.com/)
+    - app. py
+        - <a href="static/img/validation/PEP8 online check - Results.pdf">Results PDF </a>
+        - <a href="static/img/validation/result_20210812_193900.txt">Results TXT </a>
 
-------
 
-## FAQ about the uptime script
+## Testing User Stories
 
-**Why have you added this script?**
+-   #### First Time User Goals
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+    1. As a First Time User, I want to easily locate different films, either by title or genre. 
+        - Site landing page clear presents links to available films.
+            - Site landing page functions properly on all screen sizes. Only room for improvment
+            would be the scalability of the images. At certain points the images become slightly
+            distorted. 
+        - Search bar is available to both registered and unregistered users, as is
+        the genre selector.
+            - Search bar functions on all screen sizes and scales properly to fit both search/exit button
+            and genre search bar below it. 
+    2. As a First Time User, I want to easily find the recommendations for the films. 
+        - Upon selection the site displays all available recommendation for the film in question.
+            - Film information is present and scalable, any overflow is visible through scrolling. 
+    3. As a First Time User, I would like the option to register for an account.  
+        - Register tab is visible in navigation bar on all pages. 
 
-**How will this affect me?**
+-   #### Returning User Goals
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    1. As a Returning User, I want to be able to login to my account.
+        - Login tab is visible in navigation bar on all pages and incorrect username/passwords will alert the user
+        that a mistake has been made.
+    2. As a Returning User, I would like to add films to the site so that others might offer 
+    reading suggestions based on my preferences. 
+        - The landing page for logged-in users clearly displays an add film feature as the first of the available 
+        film selection options. 
+        - Also includes feature on film profile for user to edit or delete any films they may have made.
+    3. As a Returning User, I would like to be able to upload my own book suggestions for certain films. 
+        - Film profile offers users the oppurtunity to add their own recommendations. 
+        - Likewise includes a feature to edit/delete book recommendations.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+## Further Testing
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- Tested using Chrome/Firefox/Safari.
 
-**Can I opt out?**
+- Tested on iPhone 7.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+# Known Bugs / Potential Improvements
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- Minor issues with scaling the images. 
 
-**Anything more?**
+- I'm still having trouble getting the different search functions to work. Ideally the search bar
+results would focus on the film titles while the genre navbar results would focus on the genre film genres. At the moment both Search() and Genre_Search() query a shared text index made of both film titles and genres,
+so if a user were to Search("Horror") it would also bring up all the films of that genre, while if they were to select
+Genre_Search("Romance") it would also bring up all the films with the word "Romance" in the title.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- In the future I may experiment with the JSON/BSON dependencies to better handle the database information.
 
----
+# Deployment 
 
-Happy coding!
+## GitHub Cloning/Coding Environment
+
+1. Log into GitHub.
+
+2. Go to the project's repository.
+
+3. To open it in GitPod simply click the green GitPod button and a new workspace will open. 
+
+To Create your own copy:
+
+4. On the menu bar, click "Settings" which will redirect you to a separate page.
+
+3. Above the menu bar containing the "Settings" tab notice the three buttons to the right: "Unwatch", "Star", and "Fork".
+Click the "Fork" button and refresh your browser. You will now have a copy of the repository in your own account.
+
+
+## Heroku Deployment 
+
+0. (Open project in GitHub.)
+
+1. To deploy from Heroku first note down all neccesary dependencies the project requires to function. To do this create a requirements.txt file in the terminal with the command: pip freeze > requirements.txt
+
+2. Create Procfile with the commmand echo web: python app.py > Procfile. This will let Heroku know it's going to run a python file. 
+
+3. Push these files to GitHub then go to the Heroku site. 
+
+4. Login and create a new app. 
+
+5. Go to deploy and select github as the method. You will then be asked to link the heroku app to a repository. Select the name of project. 
+
+6. Then go to settings > "reveal config vars" which is where you will store the environment variables which were not pushed to github.  
+    - "IP": "0.0.0.0")
+    - "PORT": "5000")
+    - "SECRET_KEY": "mYt905thou1W")
+    - "MONGO_URI": "mongodb+srv://pokemongoDB:Pikachu25@myfirstcluster.4i2hj.mongodb.net/readflix?retryWrites=true&w=majority"
+    - "MONGO_DBNAME": "readflix")
+
+7. Then go back to the deployment section of the app and click "deploy branch". 
+
+
+# Credits
+
+- Code
+    - Code Institute (Task Manager Project)
+        - The mini Task Manager assignment served as a helpful jumping off point for developing my code.
+
+- Content
+    - I developed the code myself however many of the film and book recommendations were provided
+    by friends and family I had test the site. 
+
+- Media
+    - [FontMeme](https://fontmeme.com/permalink/210729/7c4f14820fc13e73ba00a7ff096daf55.png) This was used to create the site logo.
+    - [Google Images](https://google.com): This was used by myself, and presumbably, the testers to find images for the
+    film posters. 
+
+
+- Acknowledgements
+    - Thank you to FontMeme!
+    - Thank you to Code Institute!
