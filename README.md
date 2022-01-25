@@ -6,6 +6,9 @@ is suggested and added to the site by a user, as are the respective recommendati
 makes use of HTML, CSS, Python, Jinja, and Javascript. It also relies on Heroku for deployment and MongoDB for data
 storage. 
 
+Test Account -> User: guest / Pass: code-tester
+SuperUser Account -> User: superuser / Pass: admin
+
 [View live project](https://fitlyfe.herokuapp.com/)
 
 # UX
