@@ -7,6 +7,7 @@ makes use of HTML, CSS, Python, Jinja, and Javascript. It also relies on Heroku 
 storage. 
 
 Test Account -> User: guest / Pass: code-tester
+
 SuperUser Account -> User: superuser / Pass: admin
 
 [View live project](https://fitlyfe.herokuapp.com/)

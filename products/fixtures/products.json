@@ -103,11 +103,11 @@
       "fields": {
         "sku": "pp500742115",
         "name": "Endurance Exercise (Easy)",
-        "description": "A simple sports endurance workout that focuses on stamina, speed, and agility.",
+        "description": "A 15 minute full body cardio workout if you're looking to elevate your heart rate and work up a sweat! This workout is designed for everyone so there are modifications available if you need them. This is an interval style workout so you can go at whatever pace that helps you get the most out of the 15 minutes. ",
         "plan": "Two Rounds of the Following: (Lateral Hops) -> (Squat Jumps) -> (Ventral Hops) -> (Burpees) -> (Lateral Jumps) -> (Jumping Lunges) -> (Agility Dots) -> (Mt Climbers)",
         "price": 1.00,
         "category": 2,
-        "url": "https://www.youtube.com/embed/=5uVaKjtJHN8",
+        "url": "https://www.youtube.com/embed/IvmaekQfKiw",
         "image": "endurance_easy.png"
       }
     },
@@ -117,11 +117,11 @@
       "fields": {
         "sku": "pp5368074535",
         "name": "Endurance Exercise (Medium)",
-        "description": "A 33 minute workout of High Intensity Interval Training for endurance & total body toning.",
-        "plan": "33 Minutes of the Following: (4 Minutes of Cardio Warm Up) -> (High Intensity Interval Round #1) -> (High Intensity Interval Round #2) -> (High Intensity Interval Round #3)",
+        "description": "Follow along with us for a 30 minute full body HIIT workout that will help increase your overall strength and endurance. This workout is great for all levels of fitness since we provide advanced and beginner modifications for each exercise. This workout was designed for you to go at your own pace so feel free to drop or increase the intensity (reps) as needed.",
+        "plan": "30 Minutes of the Following: (4 Minutes of Cardio Warm Up) -> (High Intensity Interval Round #1) -> (High Intensity Interval Round #2) -> (High Intensity Interval Round #3)",
         "price": 1.00,
         "category": 2,
-        "url": "https://www.youtube.com/embed/H1GDPNYTpqA",
+        "url": "https://www.youtube.com/embed/PUs5vQ2Osbo",
         "image": "endurance_medium.png"
       }
     },
@@ -131,11 +131,11 @@
       "fields": {
         "sku": "pp573169074",
         "name": "Endurance Exercise (Hard)",
-        "description": "A bodyweight only High Intensity Interval Workout to burn fat and build endurance.",
-        "plan": "Workout Structure: (3 groups of workouts / 3 sets each) -> (3 groups of workouts / 3 sets each) ",
+        "description": "This is a full body dumbbell workout that we do weekly to build strength, endurance, and burn A LOT of calories. The goal of this workout is to complete this circuit as many times as you can within a 30 minute period. This is a great way to get in an efficient workout and test your overall strength and endurance.",
+        "plan": "This workout is a dumbbell complex made up of 7 exercises with an active rest: (Push-ups) -> (Bent Over Rows) -> (Deadlift) -> (Curls) -> (Front Squats) -> (Shoulder Press) -> (Lunges) -> [Sit Ups: Active Rest]",
         "price": 1.00,
         "category": 2,
-        "url": "https://www.youtube.com/embed/9V9I1KbJvs0",
+        "url": "https://www.youtube.com/embed/rEEZB68GTs0",
         "image": "endurance_hard.png"
       }
     },
