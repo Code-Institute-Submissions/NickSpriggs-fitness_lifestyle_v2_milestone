@@ -38,12 +38,7 @@ on their existing movie viewing habits. Specifically my goals were to:
         - I would also like to be able to alter or delete any recommendations I may have made.   
 
 # Wireframes:
-<img src="static/img/wireframes/Landing Page.png">
-<img src="static/img/wireframes/Poster Click [Logged In].png">
-<img src="static/img/wireframes/Login:Register Page.png">
-<img src="static/img/wireframes/Landing Page [Logged In].png">
-<img src="static/img/wireframes/Add Poster:Film [Logged In].png">
-<img src="static/img/wireframes/Poster Add Rec [Logged In].png">
+<img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/wireframes_orig.png">
 
 # Database Schema:
 MongoDB is used to store the data pertaining to this site. The relationship between the different databases can be seen
