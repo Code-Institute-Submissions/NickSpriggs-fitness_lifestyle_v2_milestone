@@ -53,25 +53,27 @@ creates a recommendation for a film their name, as well as the film's title, is 
 
 - Mobile, desktop, and tablet scalable.
 
-- User can add/edit/delete films and books on the site database. 
+- User can purchase video plans and view them on profile.
+
+- Superuser can add/edit/delete products on the site or through Django. 
 
 # Technology Used
 
 ## Languages
 
-- HTML
-- CSS
-- Javascript
-- Python
-- Jinja
+The following technologies have been used to achieve this project:
+
+- HTML was used as the main writing language of this project.
+- CSS was used for styling.
+- JavaScript
+    - Jquery is used for simplifying JavaScript.
+- Jinja was utilized for templating Python in Django.
 
 ## Frameworks, Libraries, Websites & Programs Used
 
 - [W3schools](https://www.w3schools.com/): This site provided many useful templates in their lessons.
 
-- [Materialize](https://www.materializecss.com/): Very helpful framework for figuring out initial design.
-
-    - Jquery: Provided helpful code for navbar.
+- [Bootstrap](https://www.bootstrap.com/): Very helpful framework for figuring out initial design.
 
 - [FontAwesome](https://fontawesome.com/): Provided icons for certain features.
 
@@ -79,19 +81,40 @@ creates a recommendation for a film their name, as well as the film's title, is 
 
 - [FontMeme](https://www.fontmeme.com/): This was used to design the logo. 
 
-- [MongoDB](https://www.mongodb.com/): MongoDB is used to store the database. 
-
 - [Heroku](https://www.heroku.com/): Heroku was used to deploy the website.
 
+- [Django](https://www.djangoproject.com/) is used as main web framework for the website.
+    - Django Crispyforms
+    - Django Allauth
+    - Stripe
+    - Gunicorn
+    - Psycopg2
+    - Django Countries
+    
+- [Amazon Web Services](https://aws.amazon.com/): Used to store all static files and images.
+
 - [GitHub](https://github.com/): GitHub was used to code the program.
-    - Dependencies
-        - click==8.0.1
-        - dnspython==2.1.0
-        - Flask==2.0.1 
-        - Flask-PyMongo==2.3.0
-        - itsdangerous==2.0.1 
-        - pymongo==3.12.0
-        - Werkzeug==2.0.1
+    - Dependencies List:
+        asgiref==3.4.1
+        boto3==1.20.42
+        botocore==1.23.42
+        dj-database-url==0.5.0
+        Django==3.2
+        django-allauth==0.41.0
+        django-countries==7.2.1
+        django-crispy-forms==1.13.0
+        django-storages==1.12.3
+        gunicorn==20.1.0
+        jmespath==0.10.0
+        oauthlib==3.1.1
+        Pillow==9.0.0
+        psycopg2-binary==2.9.3
+        python3-openid==3.2.0
+        pytz==2021.3
+        requests-oauthlib==1.3.0
+        s3transfer==0.5.0
+        sqlparse==0.4.2
+        stripe==2.64.0
 
 
 # Testing
@@ -152,14 +175,9 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
 
 # Known Bugs / Potential Improvements
 
-- Minor issues with scaling the images. 
+- Minor Issue with error messages on profile page
 
-- I'm still having trouble getting the different search functions to work. Ideally the search bar
-results would focus on the film titles while the genre navbar results would focus on the genre film genres. At the moment both Search() and Genre_Search() query a shared text index made of both film titles and genres,
-so if a user were to Search("Horror") it would also bring up all the films of that genre, while if they were to select
-Genre_Search("Romance") it would also bring up all the films with the word "Romance" in the title.
-
-- In the future I may experiment with the JSON/BSON dependencies to better handle the database information.
+(img)
 
 # Deployment 
 
