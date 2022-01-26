@@ -1,5 +1,7 @@
 # Milestone Full-Stack Framework Project
 
+<img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/laptop-ipad_orig.png">
+
 The following project was my attempt to create a fitness and nutrion website for users who are trying to get into better shape. 
 Users can buy either nutrtion or exercise plans and view the purchased product in their profile page in the form of an instructional
 video. A standard user can register a profile, purchase and view products, and track their order history. 
