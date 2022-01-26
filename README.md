@@ -1,12 +1,13 @@
 # Milestone Full-Stack Framework Project
 
 The following project was my attempt to create a fitness and nutrion website for users who are trying to get into better shape. 
-User can buy either nutrtion or exercise plans and view the purchased product in their profile page in the form of an instructional
+Users can buy either nutrtion or exercise plans and view the purchased product in their profile page in the form of an instructional
 video. A standard user can register a profile, purchase and view products, and track their order history. 
 The superuser can add, edit, and delete the products through the Django admin portal. This site currently makes use of HTML, CSS, Python, 
 Jinja, and Javascript.
 
 Test Standard Account -> User: guest / Pass: code-tester
+
 SuperUser Account -> User: superuser / Pass: admin
 
 [View live project](https://fitlyfe.herokuapp.com/)
@@ -31,7 +32,7 @@ SuperUser Account -> User: superuser / Pass: admin
 # Database Schema:
 The relationship between the models can be seen below:
 
-<img src="static/img/db_schema.png">
+<img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/wireframes_orig.png">
 
 Each user has a name and password. When a user creates a film, their name is stored in the film. Likewise when a user 
 creates a recommendation for a film their name, as well as the film's title, is stored in the recommendation. 
