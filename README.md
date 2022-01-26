@@ -1,48 +1,35 @@
 # Milestone Full-Stack Framework Project
 
-The following project was my attempt to create a book recommendation website for users who are trying watch
-less television. To help with this the recommendations are based on the viewing habits of the visitors. Each film
-is suggested and added to the site by a user, as are the respective recommendations for each film. This site currently
-makes use of HTML, CSS, Python, Jinja, and Javascript. It also relies on Heroku for deployment and MongoDB for data
-storage. 
+The following project was my attempt to create a fitness and nutrion website for users who are trying to get into better shape. 
+User can buy either nutrtion or exercise plans and view the purchased product in their profile page in the form of an instructional
+video. A standard user can register a profile, purchase and view products, and track their order history. 
+The superuser can add, edit, and delete the products through the Django admin portal. This site currently makes use of HTML, CSS, Python, 
+Jinja, and Javascript.
 
-Test Account -> User: guest / Pass: code-tester
-
+Test Standard Account -> User: guest / Pass: code-tester
 SuperUser Account -> User: superuser / Pass: admin
 
 [View live project](https://fitlyfe.herokuapp.com/)
 
 # UX
 
-My goal was to create a website that would allow users interested in reading more to find books based
-on their existing movie viewing habits. Specifically my goals were to:
-- Allow unregistered users to search for films and view their respective book recommendations.
-- Allow registered users to add films and recommendations to the site database. 
-    - Only allow the admin and the user who created the film/recommendation to update
-    or delete them from the database. [The admin login is username: admin / password: bookmark]
+(NEED)
 
 ## User Stories
 
 -   #### First Time User Goals
 
-    1. As a First Time User, I want to easily locate different films, either by title or genre. 
-    2. As a First Time User, I want to easily find the recommendations for the films. 
-    3. As a First Time User, I would like the option to register for an account.   
+    1. As a First Time User, I  
 
 -   #### Returning User Goals
 
-    1. As a Returning User, I want to be able to login to my account.
-    2. As a Returning User, I would like to add films to the site so that others might offer 
-    reading suggestions based on my preferences. 
-    3. As a Returning User, I would like to be able to upload my own book suggestions for certain films.
-        - I would also like to be able to alter or delete any recommendations I may have made.   
+    1. As a Returning User, I
 
 # Wireframes:
 <img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/wireframes_orig.png">
 
 # Database Schema:
-MongoDB is used to store the data pertaining to this site. The relationship between the different databases can be seen
-below. 
+The relationship between the models can be seen below:
 
 <img src="static/img/db_schema.png">
 
