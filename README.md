@@ -142,11 +142,13 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
         - <a href="documentation/python_testing/checkout_admin.png">admin.py</a>
         - <a href="documentation/python_testing/checkout_forms.png">forms.py</a>
         - <a href="documentation/python_testing/checkout_models.png">models.py</a>
+            - Models code was too long on certain lines.
         - <a href="documentation/python_testing/checkout_signals.png">signals.py</a>
         - <a href="documentation/python_testing/checkout_urls.png">urls.py</a>
         - <a href="documentation/python_testing/checkout_views.png">views.py</a>
         - <a href="documentation/python_testing/checkout_webhooks.png">webhooks.py</a>
         - <a href="documentation/python_testing/checkout_webhooks_handlers_error.png">webhooks_handlers.py</a>
+            - Webhook handler code was too long on certain lines.
     - Home
         - <a href="documentation/python_testing/home_url.png">urls.py</a>
         - <a href="documentation/python_testing/home_views.png">views.py</a>
@@ -155,11 +157,14 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
         - <a href="documentation/python_testing/products_forms.png">forms.py</a>
         - <a href="documentation/python_testing/products_models.png">models.py</a>
         - <a href="documentation/python_testing/products_urls.png">urls.py</a>
+            - Url code was too long on certain lines.
+
         - <a href="documentation/python_testing/products_views.png">views.py</a>
     - Profiles
         - <a href="documentation/python_testing/profiles_forms.png">forms.py</a>
         - <a href="documentation/python_testing/profiles_models.png">models.py</a>
         - <a href="documentation/python_testing/profiles_urls.png">urls.py</a>
+            - Url code was too long on certain lines.
         - <a href="documentation/python_testing/profiles_views.png">views.py</a>
 
 
