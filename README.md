@@ -194,6 +194,7 @@ Click the "Fork" button and refresh your browser. You will now have a copy of th
 ## Local Deployment
 
 1. To install the neccesary dependencies type the following into the terminal: pip3 install -r requirements.txt
+
 2. Environment variables will then need to be set up. This can be done in the terminal:
 
   export DEVELOPMENT = True
@@ -202,13 +203,13 @@ Click the "Fork" button and refresh your browser. You will now have a copy of th
   export STRIPE_SECRET_KEY = "Your Stripe Secret Key"
   export STRIPE_WH_SECRET = "Your Stripe WH Secret Key"
 
-To set up the database you will need to migrate the database models. To do so type the following into the terminal:
+3. You will then need to migrate the database models. In the terminal type:
 
 python3 manage.py makemigrations
   
 python3 manage.py migrate
   
-To load the product fixtures into the database type the following into the terminal: 
+4. To load the product fixtures into the database type the following into the terminal: 
 
 python3 manage.py loaddata categories 
 
@@ -216,7 +217,7 @@ Followed by:
 
 python3 manage.py loaddata products
 
-You will then be able to run the app locally using the following command: python3 manage.py runserver
+5.You will then be able to run the app locally using the following command: python3 manage.py runserver
 
 # Credits
 
