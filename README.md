@@ -193,7 +193,7 @@ Click the "Fork" button and refresh your browser. You will now have a copy of th
 
 ## Local Deployment
 
-1. To install the neccesary dependencies type the following into the terminal: pip3 install -r requirements.txt
+1. Install the neccesary dependencies by typing the following into the terminal: pip3 install -r requirements.txt
 
 2. Environment variables will then need to be set up. This can be done in the terminal:
 
@@ -221,29 +221,29 @@ Followed by:
 
 python3 manage.py loaddata products
 
-5.You will then be able to run the app locally using the following command: python3 manage.py runserver
+5. You will then be able to run the app locally using the following command: python3 manage.py runserver
 
 ## Heroku Deployment
 
-Step 1: Create Heroku Account and create an app for the project.
+1. Create Heroku Account and create an app for the project.
 
-Step 2: Go to the app's settings and click on "reveal config vars". Then set the following the variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, DATABASE_URL, EMAIL_HOST_PASS, EMAIL_HOST_USER, SECRET_KEY, STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, STRIPE_WH_SECRET, and USE_AWS
+2. Go to the app's settings and click on "reveal config vars". Then set the following the variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, DATABASE_URL, EMAIL_HOST_PASS, EMAIL_HOST_USER, SECRET_KEY, STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, STRIPE_WH_SECRET, and USE_AWS
 
-Step 4: Go to the settings file of the main fitness app and add your own Postgres database url to the DATABASES section where it says:
+3. Go to the settings file of the main fitness app and add your own Postgres database url to the DATABASES section where it says:
 
 default': dj_database_url.parse("Here")  
 
-Step 5: Make the migrations to the PostgreSQL Database by typing the following into the terminal:
+4. Make the migrations to the PostgreSQL Database by typing the following into the terminal:
 
 python3 manage.py makemigrations 
 
-Then
+Then:
 
 python3 manage.py migrate
 
-Step 6: Then finally login into heroku in the terminal (heroku login) and commit your changes so as to push the code to the live app. 
+5. Then finally login into heroku in the terminal (heroku login) and commit your changes so as to push the code to the live app. 
 
-Step 7: Open App in Heroku
+6. Open App in Heroku
 
 
 # Credits
@@ -263,7 +263,6 @@ Step 7: Open App in Heroku
     - Flexability Videos
         - Tom Merrick (https://www.youtube.com/channel/UCU0DZhN-8KFLYO6beSaYljg)
 
-
 - Media
     - [FontMeme](https://fontmeme.com/permalink/210729/7c4f14820fc13e73ba00a7ff096daf55.png) This was used to create the site logo.
     - [Google Images](https://google.com): This was used by myself, and presumbably, the testers to find images icons for the products. 
@@ -272,3 +271,4 @@ Step 7: Open App in Heroku
 - Acknowledgements
     - Thank you to FontMeme!
     - Thank you to Code Institute!
+    - Thank you Slack users!
