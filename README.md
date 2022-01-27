@@ -223,6 +223,29 @@ python3 manage.py loaddata products
 
 5.You will then be able to run the app locally using the following command: python3 manage.py runserver
 
+## Heroku Deployment
+
+Step 1: Create Heroku Account and create an app for the project.
+
+Step 2: Go to the app's settings and click on "reveal config vars". Then set the following the variables: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, DATABASE_URL, EMAIL_HOST_PASS, EMAIL_HOST_USER, SECRET_KEY, STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, STRIPE_WH_SECRET, and USE_AWS
+
+Step 4: Go to the settings file of the main fitness app and add your own Postgres database url to the DATABASES section where it says:
+
+default': dj_database_url.parse("Here")  
+
+Step 5: Make the migrations to the PostgreSQL Database by typing the following into the terminal:
+
+python3 manage.py makemigrations 
+
+Then
+
+python3 manage.py migrate
+
+Step 6: Then finally login into heroku in the terminal (heroku login) and commit your changes so as to push the code to the live app. 
+
+Step 7: Open App in Heroku
+
+
 # Credits
 
 - Code
