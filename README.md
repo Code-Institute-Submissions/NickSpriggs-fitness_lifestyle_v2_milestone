@@ -34,7 +34,7 @@ SuperUser Account -> User: superuser / Pass: admin
 # Database Schema:
 The relationship between the models can be seen below:
 
-<img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/wireframes_orig.png">
+<img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/database-schema-image_orig.png">
 
 Each user has a name and password. When a user creates a film, their name is stored in the film. Likewise when a user 
 creates a recommendation for a film their name, as well as the film's title, is stored in the recommendation. 
