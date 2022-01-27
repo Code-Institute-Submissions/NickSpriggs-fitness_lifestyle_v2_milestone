@@ -2,8 +2,8 @@
 
 <img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/laptop-ipad_orig.png">
 
-The following project was my attempt to create a fitness and nutrion website for users who are trying to get into better shape. 
-Users can buy either nutrtion or exercise plans and view the purchased product in their profile page in the form of an instructional
+The following project was my attempt to create a fitness and nutrition website for users who are trying to get into better shape. 
+Users can search through various nutrition or exercise plans and view the purchased product in their profile page in the form of an instructional
 video. A standard user can register a profile, purchase and view products, and track their order history. 
 The superuser can add, edit, and delete the products through the Django admin portal. This site currently makes use of HTML, CSS, Python, 
 Jinja, and Javascript.
@@ -36,8 +36,7 @@ The relationship between the models can be seen below:
 
 <img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/database-schema-image_orig.png">
 
-Each user has a name and password. When a user creates a film, their name is stored in the film. Likewise when a user 
-creates a recommendation for a film their name, as well as the film's title, is stored in the recommendation. 
+Each user has a username and password, with a confirmation email being sent to confirm the account. When a confirmed user makes a purchase the product is put into an order and the order is then stored to a specified user account
 
 # Features
 
