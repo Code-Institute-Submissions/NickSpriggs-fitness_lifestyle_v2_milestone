@@ -127,12 +127,14 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
 - WSC Markup - [Link to site](https://validator.w3.org/)
     - get_films.html - <a href="static/img/validation/get_films.html - Nu Html Checker.pdf"> Results PDF </a>
 - W3C CSS - [Link to site](https://jigsaw.w3.org/css-validator/#validate_by_input)
-    - style.css - <a href="static/img/validation/W3C CSS Validator (CSS level 3 + SVG).pdf">Results PDF </a>
+    - base.css - <a href="documentation/css_testing/Base - W3C CSS Validator.pdf">Results PDF </a>
+    - checkout.css - <a href="documentation/css_testing/Checkout - W3C CSS Validator.pdf">Results PDF </a>
+    - profile.css - <a href="documentation/css_testing/Profile - W3C CSS Validator.pdf">Results PDF </a>
 - Javascript [Link to site](https://jshint.com/)
     - countryfield.js
-      -Link
+        - <a href="documentation/js_testing/countryfield.png">countryfield.js</a>
     - stripe_elements.js
-      -Link
+        - <a href="documentation/js_testing/stripe_elements.png">stripe_elements.js</a>
 - Python - [Link to site](http://pep8online.com/)
     - Bag
         - <a href="documentation/python_testing/bag_context.png">context.py</a>
