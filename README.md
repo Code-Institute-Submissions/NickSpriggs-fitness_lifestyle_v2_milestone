@@ -122,7 +122,7 @@ The following technologies have been used to achieve this project:
 
 
 # Testing
-W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the code. 
+W3C Markup Validator, W3C CSS Validator, JSHint, and Pep8Online were used to test the code. 
 
 - WSC Markup - [Link to site](https://validator.w3.org/)
     - get_films.html - <a href="static/img/validation/get_films.html - Nu Html Checker.pdf"> Results PDF </a>
