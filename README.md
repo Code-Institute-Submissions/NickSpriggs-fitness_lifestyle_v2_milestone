@@ -16,7 +16,12 @@ SuperUser Account -> User: superuser / Pass: admin
 
 # UX
 
-(NEED)
+My goal was to create a website that would allow users interested in improving their health to find
+the ideal workout/nutrition plan for their own personal needs. Specifically my goals were to:
+- Allow unregistered users to search for nutrition and diet plans.
+- Allow registered users to add users to their checkout cart and view them in their profile. 
+- Allow registered superusers to add, edit, delete products from the site. 
+    - [The superuser login is username: superuser / password: admin]
 
 ## User Stories
 
