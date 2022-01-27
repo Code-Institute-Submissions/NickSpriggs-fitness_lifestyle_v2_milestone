@@ -49,6 +49,12 @@ Each user has a username and password, with a confirmation email being sent to c
 
 # Features
 
+- Working email validation for registered users.
+
+- Active stripe payment system.
+
+  - Note: You should only use the trial credit card number (4242 4242 4242 4242)
+
 - Mobile, desktop, and tablet scalable.
 
 - User can purchase video plans and view them on profile.
@@ -124,6 +130,11 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
     - register.html - <a href="static/img/validation/register.html - Nu Html Checker.pdf"> Results PDF </a>
 - W3C CSS - [Link to site](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - style.css - <a href="static/img/validation/W3C CSS Validator (CSS level 3 + SVG).pdf">Results PDF </a>
+- Javascript [Link to site](https://jshint.com/)
+    - countryfield.js
+      -Link
+    - stripe_elements.js
+      -Link
 - Python - [Link to site](http://pep8online.com/)
     - app. py
         - <a href="static/img/validation/PEP8 online check - Results.pdf">Results PDF </a>
