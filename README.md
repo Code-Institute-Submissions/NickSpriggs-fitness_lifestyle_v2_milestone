@@ -165,7 +165,7 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
 
 # Known Bugs / Potential Improvements
 
-- Minor issue with error messages on profile page as a result of youtube links. It doesn't appear to affect the speed or functionality of the page though. 
+- Minor issue with error messages on profile page as a result of youtube links. It doesn't appear to affect the speed or functionality of the page though. It seems to me this error has to do with the embedding method I used for the videos. As a potential solution I plant to experiment with other embedding methods in the future.
 
 <img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/fitlyfe-error_orig.png">
 
