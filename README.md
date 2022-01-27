@@ -198,9 +198,13 @@ Click the "Fork" button and refresh your browser. You will now have a copy of th
 2. Environment variables will then need to be set up. This can be done in the terminal:
 
   export DEVELOPMENT = True
+  
   export SECRET_KEY = "Your Secret Key"
+  
   export STRIPE_PUBLIC_KEY = "Your Stripe Public Key"
+  
   export STRIPE_SECRET_KEY = "Your Stripe Secret Key"
+  
   export STRIPE_WH_SECRET = "Your Stripe WH Secret Key"
 
 3. You will then need to migrate the database models. In the terminal type:
