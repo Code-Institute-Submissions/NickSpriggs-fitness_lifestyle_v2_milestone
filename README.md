@@ -215,13 +215,20 @@ Click the "Fork" button and refresh your browser. You will now have a copy of th
         - The mini Boutique Ado assignment served as a helpful jumping off point for developing my code.
 
 - Content
-    - I developed the code myself however many of the film and book recommendations were provided
-    by friends and family I had test the site. 
+    - Men/Women Nutrition Videos:
+        - Fit Father Project - Fitness For Busy Fathers (https://www.youtube.com/channel/UCKvJ_vxZZoN5yeWBU2CVGcQ)
+        - Thomas DeLauer (https://www.youtube.com/channel/UC70SrI3VkT1MXALRtf0pcHg)
+    - Strength Videos
+        - Juice & Toya (https://www.youtube.com/channel/UCwrXi5ZknKThspJc-Gai04g)
+    - Strength Videos
+        - HASfit (https://www.youtube.com/channel/UCXIJ2-RSIGn53HA-x9RDevA)
+    - Flexability Videos
+        - Tom Merrick (https://www.youtube.com/channel/UCU0DZhN-8KFLYO6beSaYljg)
+
 
 - Media
     - [FontMeme](https://fontmeme.com/permalink/210729/7c4f14820fc13e73ba00a7ff096daf55.png) This was used to create the site logo.
-    - [Google Images](https://google.com): This was used by myself, and presumbably, the testers to find images for the
-    film posters. 
+    - [Google Images](https://google.com): This was used by myself, and presumbably, the testers to find images icons for the products. 
 
 
 - Acknowledgements
