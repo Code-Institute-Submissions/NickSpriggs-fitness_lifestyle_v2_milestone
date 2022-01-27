@@ -22,11 +22,15 @@ SuperUser Account -> User: superuser / Pass: admin
 
 -   #### First Time User Goals
 
-    1. As a First Time User, I  
+    1. As a First Time User, I want to be able to register and make an account.
+    2. As a First Time User, I'd like to be able to search the site for specific exercise programs and nutritions plans.
+    3. As a First Time Superuser, I'd like to be able to easily add, edit, or delete exsisting products. 
 
 -   #### Returning User Goals
 
-    1. As a Returning User, I
+    1. As a Returning User, I want to be able to purchase and checkout specific products and eventually view them in my profile. 
+    2. As a Returning User, I'd like to be able to easily navigate the site without confusion or an extensive reintroduction. 
+    3. As a Returning User, I'd like to review my previous orders and set default contact information for my account.
 
 # Wireframes:
 <img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/wireframes_orig.png">
@@ -36,7 +40,7 @@ The relationship between the models can be seen below:
 
 <img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/database-schema-image_orig.png">
 
-Each user has a username and password, with a confirmation email being sent to confirm the account. When a confirmed user makes a purchase the product is put into an order and the order is then stored to a specified user account
+Each user has a username and password, with a confirmation email being sent to confirm the account. When a confirmed user makes a purchase the product is put into an order and the order is then stored to a specified user account.
 
 # Features
 
@@ -125,11 +129,28 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
 
 -   #### First Time User Goals
 
-    1. As a First Time User, I 
+    1. As a First Time User, I want to be able to register and make an account.
+        - Login/Registrations tabs are visible in navigation bar on all pages and incorrect username/passwords will alert the user
+        that a mistake has been made.
+    3. As a First Time User, I'd like to be able to search the site for specific exercise programs and nutritions plans.
+        - Site home page clearly presents links to nutrition and exercise plans.
+            - The home page functions properly on all screen sizes. 
+        - Search bar is available to both registered and unregistered users. 
+            - Search bar functions on all screen sizes. 
+    4. As a First Time Superuser, I'd like to be able to easily add, edit, or delete exsisting products.
+        - Superuser is granted the ability to edit or delete products when viewing them in the product landing page
+        or their specified product details page.
+        - Includes feature on within member dropdown for superuser to create new products.
 
 -   #### Returning User Goals
 
-    1. As a Returning User, I 
+    1. As a Returning User, I want to be able to purchase and checkout specific products and eventually view them in my profile. 
+       - All purchases are immediately stored in the user profile and available for viewing without restriction. 
+    3. As a Returning User, I'd like to be able to easily navigate the site without confusion or an extensive reintroduction. 
+       - Site layout is extremely simple and scales well on all devices with little to no errors. 
+    4. As a Returning User, I'd like to review my previous orders and set default contact information for my account.
+       - User profile has information tab dropdown which shows not only their preferred contact informatio but also
+       a summary of all their prior orders. 
 
 
 
