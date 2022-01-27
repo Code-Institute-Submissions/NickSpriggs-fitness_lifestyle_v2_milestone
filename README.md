@@ -126,8 +126,6 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
 
 - WSC Markup - [Link to site](https://validator.w3.org/)
     - get_films.html - <a href="static/img/validation/get_films.html - Nu Html Checker.pdf"> Results PDF </a>
-    - login.html - <a href="static/img/validation/login.html - Nu Html Checker.pdf"> Results PDF </a>
-    - register.html - <a href="static/img/validation/register.html - Nu Html Checker.pdf"> Results PDF </a>
 - W3C CSS - [Link to site](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - style.css - <a href="static/img/validation/W3C CSS Validator (CSS level 3 + SVG).pdf">Results PDF </a>
 - Javascript [Link to site](https://jshint.com/)
@@ -136,9 +134,33 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
     - stripe_elements.js
       -Link
 - Python - [Link to site](http://pep8online.com/)
-    - app. py
-        - <a href="static/img/validation/PEP8 online check - Results.pdf">Results PDF </a>
-        - <a href="static/img/validation/result_20210812_193900.txt">Results TXT </a>
+    - Bag
+        - <a href="documentation/python_testing/bag_context.png">context.py</a>
+        - <a href="documentation/python_testing/bag_url.png">urls.py</a>
+        - <a href="documentation/python_testing/bag_views.png">views.py</a>
+    - Checkout
+        - <a href="documentation/python_testing/checkout_admin.png">admin.py</a>
+        - <a href="documentation/python_testing/checkout_forms.png">forms.py</a>
+        - <a href="documentation/python_testing/checkout_models.png">models.py</a>
+        - <a href="documentation/python_testing/checkout_signals.png">signals.py</a>
+        - <a href="documentation/python_testing/checkout_urls.png">urls.py</a>
+        - <a href="documentation/python_testing/checkout_views.png">views.py</a>
+        - <a href="documentation/python_testing/checkout_webhooks.png">webhooks.py</a>
+        - <a href="documentation/python_testing/checkout_webhooks_handlers_error.png">webhooks_handlers.py</a>
+    - Home
+        - <a href="documentation/python_testing/home_url.png">urls.py</a>
+        - <a href="documentation/python_testing/home_views.png">views.py</a>
+    - Products
+        - <a href="documentation/python_testing/products_admin.png">admin.py</a>
+        - <a href="documentation/python_testing/products_forms.png">forms.py</a>
+        - <a href="documentation/python_testing/products_models.png">models.py</a>
+        - <a href="documentation/python_testing/products_urls.png">urls.py</a>
+        - <a href="documentation/python_testing/products_views.png">views.py</a>
+    - Profiles
+        - <a href="documentation/python_testing/profiles_forms.png">forms.py</a>
+        - <a href="documentation/python_testing/profiles_models.png">models.py</a>
+        - <a href="documentation/python_testing/profiles_urls.png">urls.py</a>
+        - <a href="documentation/python_testing/profiles_views.png">views.py</a>
 
 
 ## Testing User Stories
@@ -208,15 +230,15 @@ Click the "Fork" button and refresh your browser. You will now have a copy of th
 
 2. Environment variables will then need to be set up. This can be done in the terminal:
 
-  export DEVELOPMENT = True
+    export DEVELOPMENT = True
   
-  export SECRET_KEY = "Your Secret Key"
+    export SECRET_KEY = "Your Secret Key"
   
-  export STRIPE_PUBLIC_KEY = "Your Stripe Public Key"
+    export STRIPE_PUBLIC_KEY = "Your Stripe Public Key"
   
-  export STRIPE_SECRET_KEY = "Your Stripe Secret Key"
+    export STRIPE_SECRET_KEY = "Your Stripe Secret Key"
   
-  export STRIPE_WH_SECRET = "Your Stripe WH Secret Key"
+    export STRIPE_WH_SECRET = "Your Stripe WH Secret Key"
 
 3. You will then need to migrate the database models. In the terminal type:
 
