@@ -191,30 +191,32 @@ To Create your own copy:
 3. Above the menu bar containing the "Settings" tab notice the three buttons to the right: "Unwatch", "Star", and "Fork".
 Click the "Fork" button and refresh your browser. You will now have a copy of the repository in your own account.
 
+## Local Deployment
 
-## Heroku Deployment 
+1. To install the neccesary dependencies type the following into the terminal: pip3 install -r requirements.txt
+2. Environment variables will then need to be set up. This can be done in the terminal:
 
-0. (Open project in GitHub.)
+  export DEVELOPMENT = True
+  export SECRET_KEY = "Your Secret Key"
+  export STRIPE_PUBLIC_KEY = "Your Stripe Public Key"
+  export STRIPE_SECRET_KEY = "Your Stripe Secret Key"
+  export STRIPE_WH_SECRET = "Your Stripe WH Secret Key"
 
-1. To deploy from Heroku first note down all neccesary dependencies the project requires to function. To do this create a requirements.txt file in the terminal with the command: pip freeze > requirements.txt
+To set up the database you will need to migrate the database models. To do so type the following into the terminal:
 
-2. Create Procfile with the commmand echo web: python app.py > Procfile. This will let Heroku know it's going to run a python file. 
+python3 manage.py makemigrations
+  
+python3 manage.py migrate
+  
+To load the product fixtures into the database type the following into the terminal: 
 
-3. Push these files to GitHub then go to the Heroku site. 
+python3 manage.py loaddata categories 
 
-4. Login and create a new app. 
+Followed by:
 
-5. Go to deploy and select github as the method. You will then be asked to link the heroku app to a repository. Select the name of project. 
+python3 manage.py loaddata products
 
-6. Then go to settings > "reveal config vars" which is where you will store the environment variables which were not pushed to github.  
-    - "IP": "0.0.0.0")
-    - "PORT": "5000")
-    - "SECRET_KEY": "mYt905thou1W")
-    - "MONGO_URI": "mongodb+srv://pokemongoDB:Pikachu25@myfirstcluster.4i2hj.mongodb.net/readflix?retryWrites=true&w=majority"
-    - "MONGO_DBNAME": "readflix")
-
-7. Then go back to the deployment section of the app and click "deploy branch". 
-
+You will then be able to run the app locally using the following command: python3 manage.py runserver
 
 # Credits
 
