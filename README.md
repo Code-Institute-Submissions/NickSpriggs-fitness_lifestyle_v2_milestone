@@ -142,6 +142,8 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
         or their specified product details page.
         - Includes feature on within member dropdown for superuser to create new products.
 
+<img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/canvas_orig.png">
+
 -   #### Returning User Goals
 
     1. As a Returning User, I want to be able to purchase and checkout specific products and eventually view them in my profile. 
