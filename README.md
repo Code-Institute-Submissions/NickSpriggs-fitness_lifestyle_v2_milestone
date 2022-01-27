@@ -126,34 +126,11 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
 
 -   #### First Time User Goals
 
-    1. As a First Time User, I want to easily locate different films, either by title or genre. 
-        - Site landing page clear presents links to available films.
-            - Site landing page functions properly on all screen sizes. Only room for improvment
-            would be the scalability of the images. At certain points the images become slightly
-            distorted. 
-        - Search bar is available to both registered and unregistered users, as is
-        the genre selector.
-            - Search bar functions on all screen sizes and scales properly to fit both search/exit button
-            and genre search bar below it. 
-    2. As a First Time User, I want to easily find the recommendations for the films. 
-        - Upon selection the site displays all available recommendation for the film in question.
-            - Film information is present and scalable, any overflow is visible through scrolling. 
-    3. As a First Time User, I would like the option to register for an account.  
-        - Register tab is visible in navigation bar on all pages. 
+    1. As a First Time User, I 
 
 -   #### Returning User Goals
 
-    1. As a Returning User, I want to be able to login to my account.
-        - Login tab is visible in navigation bar on all pages and incorrect username/passwords will alert the user
-        that a mistake has been made.
-    2. As a Returning User, I would like to add films to the site so that others might offer 
-    reading suggestions based on my preferences. 
-        - The landing page for logged-in users clearly displays an add film feature as the first of the available 
-        film selection options. 
-        - Also includes feature on film profile for user to edit or delete any films they may have made.
-    3. As a Returning User, I would like to be able to upload my own book suggestions for certain films. 
-        - Film profile offers users the oppurtunity to add their own recommendations. 
-        - Likewise includes a feature to edit/delete book recommendations.
+    1. As a Returning User, I 
 
 
 
@@ -165,7 +142,7 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
 
 # Known Bugs / Potential Improvements
 
-- Minor Issue with error messages on profile page
+- Minor issue with error messages on profile page as a result of youtube links. It doesn't appear to affect the speed or functionality of the page though. 
 
 <img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/fitlyfe-error_orig.png">
 
