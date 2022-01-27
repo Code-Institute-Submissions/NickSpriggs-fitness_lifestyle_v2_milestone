@@ -125,7 +125,20 @@ The following technologies have been used to achieve this project:
 W3C Markup Validator, W3C CSS Validator, JSHint, and Pep8Online were used to test the code. 
 
 - WSC Markup - [Link to site](https://validator.w3.org/)
-    - get_films.html - <a href="static/img/validation/get_films.html - Nu Html Checker.pdf"> Results PDF </a>
+    - index.html - <a href="documentation/html_testing/index-html.pdf"> Results PDF </a>
+    - products.html - <a href="documentation/html_testing/products-html.pdf"> Results PDF </a>
+    - product_details.html - <a href="documentation/html_testing/products-details.pdf"> Results PDF </a>
+    - edit_product.html - <a href="documentation/html_testing/product-edit.pdf"> Results PDF </a>
+    - add_product.html - <a href="documentation/html_testing/product-add.pdf"> Results PDF </a>
+    - bag.html - <a href="documentation/html_testing/bag.pdf"> Results PDF </a>
+    - checkout.html - <a href="documentation/html_testing/checkout.pdf"> Results PDF </a>
+    - checkout_success.html - <a href="documentation/html_testing/checkout.pdf"> Results PDF </a>
+    - profile.html - <a href="documentation/html_testing/profile.pdf"> Results PDF </a>
+    - login.html - <a href="documentation/html_testing/login.pdf"> Results PDF </a>
+    - signup.html - <a href="documentation/html_testing/sign-up.pdf"> Results PDF </a>
+
+
+
 - W3C CSS - [Link to site](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - base.css - <a href="documentation/css_testing/Base - W3C CSS Validator.pdf">Results PDF </a>
     - checkout.css - <a href="documentation/css_testing/Checkout - W3C CSS Validator.pdf">Results PDF </a>
