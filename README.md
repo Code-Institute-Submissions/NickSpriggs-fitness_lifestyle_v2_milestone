@@ -167,7 +167,7 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
 
 - Minor Issue with error messages on profile page
 
-(img)
+<img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/fitlyfe-error_orig.png">
 
 # Deployment 
 
@@ -214,8 +214,8 @@ Click the "Fork" button and refresh your browser. You will now have a copy of th
 # Credits
 
 - Code
-    - Code Institute (Task Manager Project)
-        - The mini Task Manager assignment served as a helpful jumping off point for developing my code.
+    - Code Institute (Boutique Ado Project)
+        - The mini Boutique Ado assignment served as a helpful jumping off point for developing my code.
 
 - Content
     - I developed the code myself however many of the film and book recommendations were provided
