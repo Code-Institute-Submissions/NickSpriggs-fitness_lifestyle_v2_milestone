@@ -154,6 +154,7 @@ W3C Markup Validator, W3C CSS Validator, and Pep8Online were used to test the co
        - User profile has information tab dropdown which shows not only their preferred contact informatio but also
        a summary of all their prior orders. 
 
+<img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/canvas2_orig.png">
 
 
 ## Further Testing
