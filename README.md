@@ -19,7 +19,7 @@ SuperUser Account -> User: superuser / Pass: admin
 My goal was to create a website that would allow users interested in improving their health to find
 the ideal workout/nutrition plan for their own personal needs. Specifically my goals were to:
 - Allow unregistered users to search for nutrition and diet plans.
-- Allow registered users to add users to their checkout cart and view them in their profile. 
+- Allow registered users to add products to their checkout cart and view the purchased ones in their profile. 
 - Allow registered superusers to add, edit, delete products from the site. 
     - [The superuser login is username: superuser / password: admin]
 
@@ -27,7 +27,7 @@ the ideal workout/nutrition plan for their own personal needs. Specifically my g
 
 -   #### First Time User Goals
 
-    1. As a First Time User, I want to be able to register and make an account.
+    1. As a First Time User, I want to be able to register and login to an account.
     2. As a First Time User, I'd like to be able to search the site for specific exercise programs and nutritions plans.
     3. As a First Time Superuser, I'd like to be able to easily add, edit, or delete exsisting products. 
 
@@ -45,7 +45,7 @@ The relationship between the models can be seen below:
 
 <img src="http://moviewatchlist.weebly.com/uploads/8/6/4/2/86429426/database-schema-image_orig.png">
 
-Each user has a username and password, with a confirmation email being sent to confirm the account. When a confirmed user makes a purchase the product is put into an order and the order is then stored to a specified user account.
+Each user has a username and password, with a confirmation email being sent to confirm the account. When a confirmed user makes a purchase the product is put into an order and the order is then attributed to specific account so that it may be viewed later in the user's profile.
 
 # Features
 
@@ -81,7 +81,7 @@ The following technologies have been used to achieve this project:
 
 - [FontAwesome](https://fontawesome.com/): Provided icons for certain features.
 
-- [Photoshop](https://photoshop.com/en): This was used to design the site's wireframes and database schema. 
+- [Photoshop](https://photoshop.com/en): This was used to design the site's wireframes and database schema and product icons. 
 
 - [FontMeme](https://www.fontmeme.com/): This was used to design the logo. 
 
@@ -303,25 +303,24 @@ python3 manage.py migrate
 
 - Code
     - Code Institute (Boutique Ado Project)
-        - The mini Boutique Ado assignment served as a helpful jumping off point for developing my code.
+        - The mini Boutique Ado assignment served as a crucial jumping off point for developing my code.
 
 - Content
-    - Men/Women Nutrition Videos:
+    - Men/Women Nutrition Videos and Descriptions:
         - Fit Father Project - Fitness For Busy Fathers (https://www.youtube.com/channel/UCKvJ_vxZZoN5yeWBU2CVGcQ)
         - Thomas DeLauer (https://www.youtube.com/channel/UC70SrI3VkT1MXALRtf0pcHg)
-    - Strength Videos
+    - Strength Videos and Descriptions
         - Juice & Toya (https://www.youtube.com/channel/UCwrXi5ZknKThspJc-Gai04g)
-    - Strength Videos
+    - Strength Videos and Descriptions
         - HASfit (https://www.youtube.com/channel/UCXIJ2-RSIGn53HA-x9RDevA)
-    - Flexability Videos
+    - Flexability Videos and Descriptions
         - Tom Merrick (https://www.youtube.com/channel/UCU0DZhN-8KFLYO6beSaYljg)
 
 - Media
-    - [FontMeme](https://fontmeme.com/permalink/210729/7c4f14820fc13e73ba00a7ff096daf55.png) This was used to create the site logo.
-    - [Google Images](https://google.com): This was used by myself, and presumbably, the testers to find images icons for the products. 
+    - [Google Images](https://google.com): This was used to find images icons for the products. 
 
 
 - Acknowledgements
     - Thank you to FontMeme!
     - Thank you to Code Institute!
-    - Thank you Slack users!
+    - Thank you Slack users for assistance on README!
