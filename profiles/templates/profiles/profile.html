@@ -63,13 +63,13 @@
                                         <td>
                                             <ul class="list-unstyled">
                                                 {% for item in order.lineitems.all %}
-                                                    {% if item.product.name|length > 1 %}
+                                                    {% if item.quantity > 0 %}
                                                         <li class="small">
                                                             {{ item.product.name }} x{{ item.quantity }}
                                                         </li>
                                                     {% else %}
                                                         <li class="small" style="color: red;">
-                                                            Product Removed
+                                                            (Product Removed)
                                                         </li>
                                                     {% endif %}
                                                 {% endfor %}
