@@ -23,8 +23,8 @@ class Order(models.Model):
     street_address2 = models.CharField(max_length=80, null=True, blank=True)
     county = models.CharField(max_length=80, null=True, blank=True)
     date = models.DateTimeField(auto_now_add=True)
-    order_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
-    grand_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
+    order_total = models.DecimalField(max_digits=10, decimal_places=2, null=True, default=0)
+    grand_total = models.DecimalField(max_digits=10, decimal_places=2, null=True, default=0)
     original_bag = models.TextField(null=False, blank=False, default='')
     stripe_pid = models.CharField(max_length=254, null=False, blank=False, default='')
 
@@ -38,7 +38,6 @@ class Order(models.Model):
         """
         Update grand total each time a line item is added.
         """
-        print("here")
         self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum']
 
         self.grand_total = self.order_total
