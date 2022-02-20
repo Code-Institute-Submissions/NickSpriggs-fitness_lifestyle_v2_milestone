@@ -62,17 +62,17 @@
                                         <td>{{ order.date }}</td>
                                         <td>
                                             <ul class="list-unstyled">
+                                                {% if order.lineitems is not defined %}
+                                                    <li class="small" style="color: red;">
+                                                        (Product Removed)
+                                                    </li>
+                                                {% endif %}
+
                                                 {% for item in order.lineitems.all %}
                                                     <li class="small">
                                                         {{ item.product.name }} x{{ item.quantity }}
                                                     </li>
                                                 {% endfor %}
-
-                                                {% if order.lineitems is not defined %}
-                                                    <li class="small" style="color: red;">
-                                                        {{ item.product.name }} x{{ item.quantity }}
-                                                    </li>
-                                                {% endif %}
                                             </ul>
                                         </td>
                                         <td>${{ order.grand_total }}</td>
