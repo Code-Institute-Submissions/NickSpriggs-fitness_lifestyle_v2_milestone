@@ -67,7 +67,8 @@
                                                         <li class="small">
                                                             {{ item.product.name }} x{{ item.quantity }}
                                                         </li>
-                                                    {% else %}
+                                                        {{ item }}
+                                                    {% elif item.quantity == 0 %}
                                                         <li class="small" style="color: red;">
                                                             (Product Removed)
                                                         </li>
