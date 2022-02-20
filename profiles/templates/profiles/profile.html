@@ -66,11 +66,13 @@
                                                     <li class="small">
                                                         {{ item.product.name }} x{{ item.quantity }}
                                                     </li>
-
-                                                    {% if item is not defined %}
-                                                        hey
-                                                    {% endif %}
                                                 {% endfor %}
+
+                                                {% if order.lineitems is not defined %}
+                                                    <li class="small" style="color: red;">
+                                                        {{ item.product.name }} x{{ item.quantity }}
+                                                    </li>
+                                                {% endif %}
                                             </ul>
                                         </td>
                                         <td>${{ order.grand_total }}</td>
