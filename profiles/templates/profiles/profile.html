@@ -63,15 +63,12 @@
                                         <td>
                                             <ul class="list-unstyled">
                                                 {% for item in order.lineitems.all %}
-                                                    {% if item.quantity > 0 %}
-                                                        <li class="small">
-                                                            {{ item.product.name }} x{{ item.quantity }}
-                                                        </li>
-                                                        {{ item }}
-                                                    {% elif item.quantity == 0 %}
-                                                        <li class="small" style="color: red;">
-                                                            (Product Removed)
-                                                        </li>
+                                                    <li class="small">
+                                                        {{ item.product.name }} x{{ item.quantity }}
+                                                    </li>
+
+                                                    {% if item is not defined %}
+                                                        hey
                                                     {% endif %}
                                                 {% endfor %}
                                             </ul>
