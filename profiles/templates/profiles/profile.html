@@ -62,7 +62,8 @@
                                         <td>{{ order.date }}</td>
                                         <td>
                                             <ul class="list-unstyled">
-                                                {% if order.lineitems.all is not defined %}
+                                                {% if order.lineitems.all %}
+                                                {% else %}
                                                     <li class="small" style="color: red;">
                                                         (Product Removed)
                                                     </li>
