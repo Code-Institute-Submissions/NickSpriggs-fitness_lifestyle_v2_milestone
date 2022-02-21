@@ -118,6 +118,14 @@ def delete_product(request, product_id):
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
+
+    bag = request.session.get('bag', {})
+
+    if bag.count(product_id) > 0:
+        bag.pop(product_id)
+        messages.success(request, f'Removed: {product.name}')
+        request.session['bag'] = bag
+
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
