@@ -119,12 +119,8 @@ def delete_product(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
-    bag = request.session.get('bag', {})
-
-    if bag.count(product_id) > 0:
-        bag.pop(product_id)
-        messages.success(request, f'Removed: {product.name}')
-        request.session['bag'] = bag
+    if 'bag' in request.session:
+        del request.session['bag']
 
     product.delete()
     messages.success(request, 'Product deleted!')
