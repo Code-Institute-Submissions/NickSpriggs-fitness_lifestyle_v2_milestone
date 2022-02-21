@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
+from bag.contexts import bag_contents
 from .models import Product, Category
 from .forms import ProductForm
 
@@ -120,7 +121,10 @@ def delete_product(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
 
     if 'bag' in request.session:
-        if product_id in request.session['bag']:
+        current_bag = bag_contents(request)
+        bag_items = current_bag['bag_items']
+
+        if product_id in bag_items:
             bag = request.session.get('bag', {})
             bag.pop(product_id)
             request.session['bag'] = bag
