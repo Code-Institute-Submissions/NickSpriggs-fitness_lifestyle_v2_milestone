@@ -124,10 +124,11 @@ def delete_product(request, product_id):
         current_bag = bag_contents(request)
         bag_items = current_bag['bag_items']
 
-        if product_id in bag_items:
-            bag = request.session.get('bag', {})
-            bag.pop(product_id)
-            request.session['bag'] = bag
+        for item in bag_items:
+            if item['product'] == product:
+                bag = request.session.get('bag', {})
+                bag.pop(product_id)
+                request.session['bag'] = bag
 
     product.delete()
     messages.success(request, 'Product deleted!')
