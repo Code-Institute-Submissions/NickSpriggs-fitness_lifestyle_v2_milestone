@@ -127,7 +127,7 @@ def delete_product(request, product_id):
         for item in bag_items:
             if item['product'] == product:
                 bag = request.session.get('bag', {})
-                bag.pop(product_id)
+                bag.pop(product)
                 request.session['bag'] = bag
 
     product.delete()
