@@ -171,16 +171,13 @@ W3C Markup Validator, W3C CSS Validator, JSHint, and Pep8Online were used to tes
         - <a href="documentation/python_testing/products_admin.png">admin.py</a>
         - <a href="documentation/python_testing/products_forms.png">forms.py</a>
         - <a href="documentation/python_testing/products_models.png">models.py</a>
-        - <a href="documentation/python_testing/products_urls.png">urls.py</a>
-            - Url code was too long on certain lines.
-
-        - <a href="documentation/python_testing/products_views.png">views.py</a>
+        - <a href="documentation/python_testing/products_urls.pdf">urls.py</a>
+        - <a href="documentation/python_testing/products_views.pdf">views.py</a>
     - Profiles
         - <a href="documentation/python_testing/profiles_forms.png">forms.py</a>
         - <a href="documentation/python_testing/profiles_models.png">models.py</a>
-        - <a href="documentation/python_testing/profiles_urls.png">urls.py</a>
-            - Url code was too long on certain lines.
-        - <a href="documentation/python_testing/profiles_views.png">views.py</a>
+        - <a href="documentation/python_testing/profiles_urls.pdf">urls.py</a>
+        - <a href="documentation/python_testing/profiles_views.pdf">views.py</a>
 
 
 ## Testing User Stories
