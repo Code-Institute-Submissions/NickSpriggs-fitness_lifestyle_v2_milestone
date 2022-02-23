@@ -132,7 +132,7 @@ W3C Markup Validator, W3C CSS Validator, JSHint, and Pep8Online were used to tes
     - add_product.html - <a href="documentation/html_testing/product-add.pdf"> Results PDF </a>
     - bag.html - <a href="documentation/html_testing/bag.pdf"> Results PDF </a>
     - checkout.html - <a href="documentation/html_testing/checkout.pdf"> Results PDF </a>
-    - checkout_success.html - <a href="documentation/html_testing/checkout-sucess.pdf"> Results PDF </a>
+    - checkout_success.html - <a href="documentation/html_testing/checkout-success.pdf"> Results PDF </a>
     - profile.html - <a href="documentation/html_testing/profile.pdf"> Results PDF </a>
     - login.html - <a href="documentation/html_testing/login.pdf"> Results PDF </a>
     - signup.html - <a href="documentation/html_testing/sign-up.pdf"> Results PDF </a>
