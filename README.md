@@ -10,7 +10,7 @@ Jinja, and Javascript.
 
 Test Standard Account -> User: guest / Pass: code-tester
 
-SuperUser Account -> User: superuser / Pass: admin
+SuperUser Account -> User: superuser-admin / code-tester
 
 [View live project](https://fitlyfe.herokuapp.com/)
 
